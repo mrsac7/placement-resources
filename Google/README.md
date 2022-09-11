@@ -14,7 +14,7 @@ Determine the maximum number of cookies she can eat and the maximum energy she c
 _Notes_
 
 * _1_-based indexing is followed.
-* Alice can eat the cookies in any order as long as the cookie she is trying to maximize her energy at each step.
+* Alice can eat the cookies in any order as long as the cookie she is trying to eat currently is located at a height not greater than her current energy.
 
 **Example**
 
@@ -49,14 +49,24 @@ Complete the `solve` function provided in the editor. This function take the fol
 * _E:_ Represents an integer array denoting the energy of _i<sub>th</sub>_ cookie as _E<sub>i</sub>_ (1 ≤ _i_ ≤ N)
 * _K:_ Represents an integer denoting Alice's initial energy
 
-**Output:**
+**Input Format**
 
-Print two lines. In the first line, print the maximum number of cookies she can eat and in the next line print _N_ integers denoting the maximum energy she can attain after each step.
+* The first line contains a single integer _T_ that denotes the number of test cases. _T_ also denotes the number of times you have to run the `solve` function on a different set of inputs.
+* For each test case:
+  - The first line contains an integer _N._
+  - The second line contains _N_ space-separated integers denoting the array _H._
+  - The third line contains _N_ space-separated integers denoting the array _E._
+  - The fourth line contains an integer _K._
+
+**Output Format**
+
+For every test case, print the number of cookies that can be eaten by Alice, followed by the maximum score she can attain after eating each cookie in a new line.
 
 **Constraints:**
 
+* 1 ≤ _T_ ≤ 10
 * 1 ≤ _N_ ≤ 10<sup>5</sup>
-* 1 ≤ _H<sub>i</sub>_ ≤ 10<sup>5</sup>
-* 1 ≤ _E<sub>i</sub>_ ≤ 10<sup>5</sup>
-* 1 ≤ _K_ ≤ 10<sup>5</sup>
+* 1 ≤ _K_ ≤ 10<sup>9</sup>
+* 1 ≤ _H<sub>i</sub>_, _E<sub>i</sub>_ ≤ 10<sup>5</sup>
+
 
