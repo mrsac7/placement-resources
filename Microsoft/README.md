@@ -1,5 +1,10 @@
 # Microsoft
 
+## Questions Index
+
+* [Patients](#1-patients)
+* [Robot](#2-robot)
+
 ## 1. Patients
 
 There are N patients (numbered 0 to N - 1) who want to visit the doctor. The doctor has S possible appointment slots, numbered from 1 to S. Each of the paitents has two preferences. Patient K would like to visit the doctor during either slot A[K] or slot B[K]. The doctor can treat only one patient during each slot.
@@ -31,7 +36,7 @@ Write an **efficient** algorithm for the following assumptions:
 * each element of arrays A and B is an integer within the range [1..S];
 * no patient has two preferrences for the same slot, i.e. A[i] ≠ B[i].
 
-
+---
 ## 2. Robot
 
 There is a cleaning robot which is cleaning a rectangular grid of size N x M, represented by aray R consisting of N strings. Rows are numbered from 0 to N-1 (from top to bottom) and columns are numbered from 0 to M-1 (from left to right).
