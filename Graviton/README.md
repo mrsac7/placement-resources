@@ -10,7 +10,7 @@
 
 Let $X$ be a set of $N$ variables ( $x_1, x_2,..., x_n$ ). Let $E$ be the set of $M$ linear equations ( $e_1, e_2,..., e_n$ ) on the set $X$. Each equation in $E$ is of the form $x_i = x_j + c_{ij}$ (where $c_{ij}$ are all integers for $1 \leq i, j \leq N$). Given the relevant information (inputs mentioned below), devise an algorithm to determine whether the equations in $E$ are consistent. (i.e. whether an assignment of integers can be made to the variables, which satisfies all the equations in $E$).
 
-**Inputs:**
+### Inputs:
 
 First line denotes the number of test cases $T$, followed by the test cases themselves.
 
@@ -20,7 +20,7 @@ Followed by $M$ lines which define the set $E$.
 
 $m^{th}$ line of these $M$ lines is of the form: $i j c_{ij}$ (used to denote the ). $m^{th}$ equation of the form: $x_i = x_j + c_{ij}$ ).
 
-**Output:**
+### Output:
 
 For each test case in $T$, output a single line:
 
@@ -28,7 +28,7 @@ $YES$, if there exists an assignment of integers for which all equations in $E$ 
 
 $NO$, otherwise.
 
-**Constraints:**
+### Constraints:
 
 $1 \leq T \leq 20$
 
@@ -84,7 +84,7 @@ Your task is to find the maximum number of groups that can be formed following t
 
 Assume player names to be a single word containing uppercase english alphabets only.
 
-**Inputs:**
+### Inputs:
 
 $T$: Number of test cases
 
@@ -95,11 +95,11 @@ Each test case will have:
   * $P_i$: Name of $i^{th}$ player.
   * $G_i$: Maximum number of groups, $i^{th}$ can be included in.
 
-**Output:**
+### Output:
 
 For each test case in T, output a single integer denoting the maximum number of groups that can be made.
 
-**Constraints:**
+### Constraints:
 
 $1 \leq T \leq 20$
 
