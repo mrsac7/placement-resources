@@ -3,7 +3,7 @@
 
 ## Questions Index
 
-* [Patients](#1-cookies)
+* [Cookies](#1-cookies)
 
 ## 1. Cookies
 
