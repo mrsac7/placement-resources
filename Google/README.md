@@ -38,7 +38,7 @@ Cookies eaten by Alice to maximize her energy after each step are:
 
 Hence, the number of cookies eaten by Alice is 5.
 
-Therefore the answer is _[5, 14, 17, 21, 23, 24].
+Therefore the answer is _[5, 14, 17, 21, 23, 24]._
 
 **Function Description**
 
