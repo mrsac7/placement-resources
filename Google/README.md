@@ -74,4 +74,32 @@ For every test case, print the number of cookies that can be eaten by Alice, fol
 * $1 \leq K \leq 10^9$
 * $1 \leq H_i, E_i \leq 10^5$
 
+<table>
+<tr>
+<td> Sample Input </td>
+<td> Sample Output </td>
+</tr>
+<tr>
+<td>
+
+```shell
+1                            
+5
+3 2 6 8 10
+2 1 2 3 1
+3
+```
+
+</td>
+<td>
+
+```shell
+5                            
+5 6 8 11 12
+```
+
+</td>
+</tr>
+</table>
+
 
