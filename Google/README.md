@@ -1,6 +1,6 @@
 # Google
 
-## Cookies
+## 1. Cookies
 
 Alice loves cookies. One day while wandering, she came across a cookie-world that has _N_ cookies in it, numbered from _1_ to _N_. 
 Each cookie has an energy count of _E<sub>i</sub>_ and is stored at height _H<sub>i</sub>_. Initially, Alice's energy is _K_, and after eating a cookie with energy _E<sub>i</sub>_ her energy increases by _E<sub>i</sub>_.
