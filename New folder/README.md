@@ -31,7 +31,7 @@ Write an **efficient** algorithm for the following assumptions:
 * each element of arrays A and B is an integer within the range [1..S];
 * no patient has two preferrences for the same slot, i.e. A[i] ≠ B[i].
 
-#
+
 ## 2. Robot
 
 There is a cleaning robot which is cleaning a rectangular grid of size N x M, represented by aray R consisting of N strings. Rows are numbered from 0 to N-1 (from top to bottom) and columns are numbered from 0 to M-1 (from left to right).
@@ -49,11 +49,17 @@ that, given an array R consisting of N strings, each of length M, representing t
 
 1. Given A = ["...X..", "....XX", "..X..."], your function should return 6.
 
+<img src="https://github.com/mrsac7/placement-resources/blob/main/New%20folder/g1.png" width="300">
+
 The robot starts at (0, 0), facing rightwards, and moves to (0, 2), where it turns due to the obstacle at (0, 3). Then it goes down from (0, 2) to (1, 2), where it changes direction again due to another obstacle. Next it goes left from (1, 2) to (1, 0), where it turns once because of the grid boundary, then it moves once and turns once more, which makes it stand again at position (0, 0) facing rightwards, just as the beginning, which means it will now repeat the loop indefinitely. The total number of cleaned sqaures is 6.
 
 2. Given A = ["....X..", "X......", ".....X.", "......."], your function should return 15.
 
+<img src="https://github.com/mrsac7/placement-resources/blob/main/New%20folder/g2.png" width="350">
+
 3. Given A = ["...X.", ".X..X", "X...X", "..X.."], your function should return 9.
+
+<img src="https://github.com/mrsac7/placement-resources/blob/main/New%20folder/g3.png" width="275">
 
 4. Given A = ["."], your function should return 1, because there is only one square on the grid and it is cleaned in the first move.
 
