@@ -34,9 +34,9 @@ Cookies eaten by Alice to maximize her energy after each step are:
 * Then Alice will eat cookie with energy _4_ at a height of _15_ and her energy increases to _17 + 4 = 21_.
 * Then Alice will eat cookie with energy _2_ at a height of _9_ and her energy increases to _21 + 2 = 23_.
 * Then Alice will eat cookie with energy _1_ at a height of _3_ and her energy increases to _23 + 1 = 24_.
-* Alice will not be able to eat cookie at a height of 30.
+* Alice will not be able to eat cookie at a height of _30._
 
-Hence, the number of cookies eaten by Alice is 5.
+Hence, the number of cookies eaten by Alice is _5_.
 
 Therefore the answer is _[5, 14, 17, 21, 23, 24]._
 
@@ -51,7 +51,7 @@ Complete the `solve` function provided in the editor. This function take the fol
 
 **Output:**
 
-An maximum number of cookies she can eat and the maximum energy she can attain after each step.
+Print two lines. In the first line, print the maximum number of cookies she can eat and in the next line print _N_ integers denoting the maximum energy she can attain after each step.
 
 **Constraints:**
 
