@@ -7,71 +7,71 @@
 
 ## 1. Cookies
 
-Alice loves cookies. One day while wandering, she came across a cookie-world that has _N_ cookies in it, numbered from _1_ to _N_. 
-Each cookie has an energy count of _E<sub>i</sub>_ and is stored at height _H<sub>i</sub>_. Initially, Alice's energy is _K_, and after eating a cookie with energy _E<sub>i</sub>_ her energy increases by _E<sub>i</sub>_.
+Alice loves cookies. One day while wandering, she came across a cookie-world that has $N$ cookies in it, numbered from $1$ to $N$. 
+Each cookie has an energy count of $E_i$ and is stored at height $H_i$. Initially, Alice's energy is $K$, and after eating a cookie with energy $E_i$ her energy increases by $E_i$.
 
-In each step, Alice can climb to a certain height and can eat a cookie and return to her original position, but climbing requires energy, and she can only climb height _H<sub>i</sub>_ if her energy _K_ is greater than or equal to the height _H<sub>i</sub>_.
+In each step, Alice can climb to a certain height and can eat a cookie and return to her original position, but climbing requires energy, and she can only climb height $H_i$ if her energy $K$ is greater than or equal to the height $H_i$.
 
-**Task**
+### Task
 
 Determine the maximum number of cookies she can eat and the maximum energy she can attain after each step.
 
-_Notes_
+$Notes$
 
-* _1_-based indexing is followed.
+* $1$-based indexing is followed.
 * Alice can eat the cookies in any order as long as the cookie she is trying to eat currently is located at a height not greater than her current energy.
 
-**Example**
+### Example
 
-_Assumptions_
+$Assumptions$
 
-* _N = 6_
-* _H = [6, 1, 3, 9, 15, 30]_
-* _E = [3, 5, 1, 2, 4, 3]_
-* _K = 9_
+* $N = 6$
+* $H = [6, 1, 3, 9, 15, 30]$
+* $E = [3, 5, 1, 2, 4, 3]$
+* $K = 9$
 
-_Approach_
+$Approach$
 
 Cookies eaten by Alice to maximize her energy after each step are:
 
-* At first, Alice will eat cookie with energy _5_ at a height of _1_ and her energy increases to _9 + 5 = 14_.
-* Then Alice will eat cookie with energy _3_ at a height of _6_ and her energy increases to _14 + 3 = 17_.
-* Then Alice will eat cookie with energy _4_ at a height of _15_ and her energy increases to _17 + 4 = 21_.
-* Then Alice will eat cookie with energy _2_ at a height of _9_ and her energy increases to _21 + 2 = 23_.
-* Then Alice will eat cookie with energy _1_ at a height of _3_ and her energy increases to _23 + 1 = 24_.
-* Alice will not be able to eat cookie at a height of _30._
+* At first, Alice will eat cookie with energy $5$ at a height of $1$ and her energy increases to $9 + 5 = 14$.
+* Then Alice will eat cookie with energy $3$ at a height of $6$ and her energy increases to $14 + 3 = 17$.
+* Then Alice will eat cookie with energy $4$ at a height of $15$ and her energy increases to $17 + 4 = 21$.
+* Then Alice will eat cookie with energy $2$ at a height of $9$ and her energy increases to $21 + 2 = 23$.
+* Then Alice will eat cookie with energy $1$ at a height of $3$ and her energy increases to $23 + 1 = 24$.
+* Alice will not be able to eat cookie at a height of $30.$
 
-Hence, the number of cookies eaten by Alice is _5_.
+Hence, the number of cookies eaten by Alice is $5$.
 
-Therefore the answer is _[5, 14, 17, 21, 23, 24]._
+Therefore the answer is $[5, 14, 17, 21, 23, 24].$
 
-**Function Description**
+### Function Description
 
-Complete the `solve` function provided in the editor. This function take the following _4_ parameters and returns an array of integers:
+Complete the `solve` function provided in the editor. This function take the following $4$ parameters and returns an array of integers:
 
-* _N:_ Represents an integer denoting the number of cookies
-* _H:_ Represents an integer array denoting the height of _i<sub>th</sub>_ cookie as _H<sub>i</sub>_ (1 ≤ _i_ ≤ N)
-* _E:_ Represents an integer array denoting the energy of _i<sub>th</sub>_ cookie as _E<sub>i</sub>_ (1 ≤ _i_ ≤ N)
-* _K:_ Represents an integer denoting Alice's initial energy
+* $N:$ Represents an integer denoting the number of cookies
+* $H:$ Represents an integer array denoting the height of $i_{th}$ cookie as $H_i$ ( $1 \leq i \leq N$ )
+* $E:$ Represents an integer array denoting the energy of $i_{th}$ cookie as $E_i$ ( $1 \leq i \leq N$ )
+* $K:$ Represents an integer denoting Alice's initial energy
 
-**Input Format**
+### Input Format
 
-* The first line contains a single integer _T_ that denotes the number of test cases. _T_ also denotes the number of times you have to run the `solve` function on a different set of inputs.
+* The first line contains a single integer $T$ that denotes the number of test cases. $T$ also denotes the number of times you have to run the `solve` function on a different set of inputs.
 * For each test case:
-  - The first line contains an integer _N._
-  - The second line contains _N_ space-separated integers denoting the array _H._
-  - The third line contains _N_ space-separated integers denoting the array _E._
-  - The fourth line contains an integer _K._
+  - The first line contains an integer $N.$
+  - The second line contains $N$ space-separated integers denoting the array $H.$
+  - The third line contains $N$ space-separated integers denoting the array $E.$
+  - The fourth line contains an integer $K.$
 
-**Output Format**
+### Output Format
 
 For every test case, print the number of cookies that can be eaten by Alice, followed by the maximum score she can attain after eating each cookie in a new line.
 
-**Constraints:**
+### Constraints
 
-* 1 ≤ _T_ ≤ 10
-* 1 ≤ _N_ ≤ 10<sup>5</sup>
-* 1 ≤ _K_ ≤ 10<sup>9</sup>
-* 1 ≤ _H<sub>i</sub>_, _E<sub>i</sub>_ ≤ 10<sup>5</sup>
+* $1 \leq T \leq 10$
+* $1 \leq N \leq 10^5$
+* $1 \leq K \leq 10^9$
+* $1 \leq H_i, E_i \leq 10^5$
 
 
