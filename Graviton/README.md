@@ -1,10 +1,10 @@
 # Graviton
-> Collection of Coding Questions asked by Graviton during placements at IITs
+> Collection of coding questions asked by Graviton during placements at IITs
 
 ## Questions Index
 
-* [Valid Equations](#1-valid-equations)
-* [Squid Game](#2-squid-game)
+* [Valid Equations](#1-valid-equations) [IIT-BHU'21, IIT-K'21]
+* [Squid Game](#2-squid-game) [IIT-BHU'21, IIT-K'21]
 
 ## 1. Valid Equations
 
