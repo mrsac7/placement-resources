@@ -8,3 +8,4 @@
 - [Uber](https://github.com/mrsac7/placement-resources/tree/main/Uber)
 - [Graviton](https://github.com/mrsac7/placement-resources/tree/main/Graviton)
 - [CodeNation](https://github.com/mrsac7/placement-resources/tree/main/CodeNation)
+- [Slice](https://github.com/mrsac7/placement-resources/tree/main/Slice)
