@@ -9,7 +9,7 @@
 
 ## 1. Omega Primes
 
-#### Problem Description
+### Problem Description
 
 Carl is bored of playing with ordinary prime numbers. Thus, he comes up with some special numbers called Omega Primes. 
 
@@ -23,21 +23,21 @@ Carl decides to play a bit more with Omega Primes. He has an array $A$ of intege
 
 Since this number can be large, output the answer modulo $10^9 + 7$.
 
-#### Problem Constratints
+### Problem Constratints
 
 $1 \leq Length \ of \ A \leq 2\times10^4$
 
 $1 \leq A[i] \leq 30$
 
-#### Input Format
+### Input Format
 
 The first argument is the integer array $A$.
 
-#### Output Format
+### Output Format
 
 Return an integer denoting the number of different desired subsets modulo $10^9 + 7$.
 
-#### Example Input
+### Example Input
 
 <table>
 <tr>
@@ -68,7 +68,7 @@ A = [2, 4, 3]
 
 </table>
 
-#### Example Output
+### Example Output
 
 <table>
 <tr>
@@ -99,7 +99,7 @@ A = [2, 4, 3]
 
 </table>
 
-#### Example Explanation
+### Example Explanation
 
 <table>
 <tr>
@@ -135,7 +135,7 @@ Note, the Omega Primes generated are same but the subset used to generate them a
 
 ## 2. Root It
 
-#### Probelm Description
+### Probelm Description
 
 You are given a tree with $A$ vertices. At each vertex some number of candies are placed. Vertex $i$ contains $B[i]$ candies, given in the input.
 
@@ -149,24 +149,24 @@ $Note:$ While traversing the tree, you can stop at any vertex you want. In other
 
 You have to tell the maximum of all the values written in the notebook.
 
-#### Problem Constraints
+### Problem Constraints
 $1 \leq A \leq 10^5$
 
 $1 \leq B[i] \leq 10^3$
 
 $1 \leq C[i][0], C[i][1] \leq A$
 
-#### Input Format
+### Input Format
 
 The first argument is the integer $A$.
 The second argument is an integer array $B$.
 The third argument is a $2$D interger array $C$.
 
-#### Output Format
+### Output Format
 
 Return the maximum integer written on the notebook.
 
-#### Example Input
+### Example Input
 
 <table>
 <tr>
@@ -201,7 +201,7 @@ C = [[1, 2]]
 
 </table>
 
-#### Example Output
+### Example Output
 
 <table>
 <tr>
@@ -232,7 +232,7 @@ C = [[1, 2]]
 
 </table>
 
-#### Example Explanation
+### Example Explanation
 
 <table>
 <tr>
@@ -271,7 +271,7 @@ Only optimal way is to choose vertex 1 as a root and traverse the edge. So Maxim
 
 ## 3. Shortest Path Function
 
-#### Problem Description
+### Problem Description
 
 Given a tree with $N$ vertices, find the sum of the following function over all vertices of the tree.
 
@@ -281,21 +281,21 @@ You are given a $2$-D vector $A$ of size $N - 1$ containing all the edges of the
 
 Since the answer can be very large, output it modulo $10^9 + 7$.
 
-#### Problem Constraints
+### Problem Constraints
 
 $1 \leq N \leq 10^5$
 
 $1 \leq A[i][0], A[i][1] \leq N$
 
-#### Input Format
+### Input Format
 
 The first argument is the $2$-D integer array $A$.
 
-#### Output Format
+### Output Format
 
 Return a single integer as per the problem given above.
 
-#### Example Input
+### Example Input
 
 <table>
 <tr>
@@ -329,7 +329,7 @@ A = [[1, 2],
 
 </table>
 
-#### Example Output
+### Example Output
 
 <table>
 <tr>
@@ -360,7 +360,7 @@ A = [[1, 2],
 
 </table>
 
-#### Example Explanation
+### Example Explanation
 
 <table>
 <tr>
