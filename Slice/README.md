@@ -65,7 +65,7 @@ He thinks that the more employees a project has, the easier it gets to work and 
 
 You task is to help the manager find the maximum number of employees that could be accomodated in the team.
 
-#### Example
+### Example
 
 $n = 8$
 
