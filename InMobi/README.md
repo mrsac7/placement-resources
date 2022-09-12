@@ -100,7 +100,7 @@ Manager of Employee 6 = 4
 
 This is how the org structure looks like for this example:
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Slice/fig1.png" width="250">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/InMobi/fig1.png" width="200">
 
 ---
 
@@ -167,7 +167,7 @@ If there is no such route, return $-1$.
 
 The flight graph for this example looks like this:
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Slice/fig2.png" width="200">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/InMobi/fig2.png" width="300">
 
 We have to find the cheapest combination of flights froms source = $0$ to destination = $3$ with at max $1$ stop. The cheapest solution is from $0 \rightarrow 4 \rightarrow 5 \rightarrow 3$ which has a total cost = $6$ but this has a total of $2$ stops so we can't choose this path. The best path with at max $1$ stop is $0 \rightarrow 3$ with a total cost of $15$
 
