@@ -21,7 +21,7 @@ Each join operation requires some cost (labour cost, welding cost etc.). Cost of
 ### Input Format
 
 * Value of $N$ in $1st$ line
-* Comma and space separted $N$ integers in $2$nd line, which denote individual weights of $N$ pieces. 
+* Comma and space separted $N$ integers in $2nd$ line, which denote individual weights of $N$ pieces. 
 
 ### Constraints
 
