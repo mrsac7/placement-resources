@@ -20,7 +20,7 @@ Each join operation requires some cost (labour cost, welding cost etc.). Cost of
 
 ### Input Format
 
-* Value of $N$ in $1$st line
+* Value of $N$ in $1st$ line
 * Comma and space separted $N$ integers in $2$nd line, which denote individual weights of $N$ pieces. 
 
 ### Constraints
@@ -57,7 +57,7 @@ In aboe sample, broken chain has 4 pieces with given weights. Two pieces are joi
 
 In a company containing $N$ number of employees with employee ID ranging from $1$ to $N$. Employee with ID $1$ is the CEO. Every employee has exaclty $1$ manager except CEO who doesn't report to anyone. 
 
-Find the total number of reportees (direct + indirect) for everyone.
+Find the total number of reportees ( $direct + indirect$ ) for everyone.
 
 ### Input Format
 
@@ -70,7 +70,7 @@ Find the total number of reportees (direct + indirect) for everyone.
 
 ### Output Format
 
-* Print $N$ integers separated by space where $1$st integer is total number of reportees of employee with $id = 1$, $2$nd value is total number of reportees of employee with $id = 2$ and so on.
+* Print $N$ integers separated by space where $1st$ integer is total number of reportees of employee with $id = 1$, $2nd$ value is total number of reportees of employee with $id = 2$ and so on.
 
 ### Sample Input
 
