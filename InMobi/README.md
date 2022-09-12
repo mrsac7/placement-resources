@@ -90,13 +90,13 @@ Find the total number of reportees (direct + indirect) for everyone.
 
 ### Explanation
 
-Manager of Employee 2 = 1
+Manager of Employee $2 = 1$
 
-Manager of Employee 3 = 3
+Manager of Employee $3 = 3$
 
-Manager of Employee 5 = 2
+Manager of Employee $5 = 2$
 
-Manager of Employee 6 = 4
+Manager of Employee $6 = 4$
 
 This is how the org structure looks like for this example:
 
