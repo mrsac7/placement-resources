@@ -133,7 +133,7 @@ If there is no such route, return $-1$.
 * $1 \leq dst \leq n$
 * $src \neq dest$
 * $1 \leq k \lt n$
-* $Note:$ There is only 1 direct flight between any $2$ cities.
+* $Note:$ There is only $1$ direct flight between any $2$ cities.
 
 ### Output Format
 
