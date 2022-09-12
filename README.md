@@ -8,5 +8,6 @@
 - [Uber](https://github.com/mrsac7/placement-resources/tree/main/Uber)
 - [Graviton](https://github.com/mrsac7/placement-resources/tree/main/Graviton)
 - [CodeNation](https://github.com/mrsac7/placement-resources/tree/main/CodeNation)
+- [Atlassian](https://github.com/mrsac7/placement-resources/tree/main/Atlassian)
 - [Slice](https://github.com/mrsac7/placement-resources/tree/main/Slice)
 - [American Express](https://github.com/mrsac7/placement-resources/tree/main/American%20Express)
