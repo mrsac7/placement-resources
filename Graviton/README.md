@@ -18,7 +18,7 @@ First line of each test case consists of two space separated numbers $N$ and $M$
 
 Followed by $M$ lines which define the set $E$.
 
-$m^{th}$ line of these $M$ lines is of the form: $i j c_{ij}$ (used to denote the ). $m^{th}$ equation of the form: $x_i = x_j + c_{ij}$ ).
+$m^{th}$ line of these $M$ lines is of the form: $i$ $j$ $c_{ij}$ (used to denote the $m^{th}$ equation of the form: $x_i = x_j + c_{ij}$ ).
 
 ### Output:
 
