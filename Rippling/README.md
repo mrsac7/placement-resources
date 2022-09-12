@@ -1,5 +1,5 @@
-# American Express
-> Collection of coding questions asked by American Express during placements at IITs
+# Rippling
+> Collection of coding questions asked by Rippling during placements at IITs
 
 ## Questions Index
 
