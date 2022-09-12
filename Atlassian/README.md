@@ -65,6 +65,7 @@ $student1 = [1, 2, 1]$
 
 $student2 = [2, 3, 4]$
 
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Atlassian/fig.png" width="200">
 
 The queries are assembled, aligned by index:
 
