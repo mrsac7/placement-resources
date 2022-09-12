@@ -26,7 +26,7 @@ At the end of hour $3$, $A$ will pass the info to $G$, $B$ will pass the info to
 
 Find the minimum number of hours in which all the people in the organization are informed of the strategic mission.
 
-#### Sample Input
+### Sample Input
 
 Each line in the input represents an edge between two nodes in the tree separated by a comma.
 
@@ -49,7 +49,7 @@ L, Q
 G, M
 ```
 
-#### Sample Output
+### Sample Output
 
 ```shell
 6
@@ -83,24 +83,24 @@ You will be give the size of the array and the array consisting of the skill lev
   
 * $skill \textunderscore level$: an array of integers, where each $A[i]$ is the skill level of the employee $i$.
   
-#### Constraints
+### Constraints
   
 * $1 \leq n \leq 10^4$
 * $1 \leq A_i \leq 10^9$
 
-#### Sample Input
+### Sample Input
 
 ```shell
 6
 1 10 17 12 15 2
 ```
 
-#### Sample Output
+### Sample Output
 
 ```
 3
 ```
 
-#### Explanation
+### Explanation
 
 The manager can create a team with skills $[17, 12, 15]$.
