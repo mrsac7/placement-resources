@@ -36,7 +36,7 @@ Each join operation requires some cost (labour cost, welding cost etc.). Cost of
 
 ```shell
 4
-8 2 3 4
+8, 2, 3, 4
 ```
 
 ### Sample Output
