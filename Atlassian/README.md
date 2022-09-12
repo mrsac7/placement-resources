@@ -76,7 +76,7 @@ The queries are assembled, aligned by index:
 | 1        | Friend   | 2        | 3        |
 | 2        | Total    | 1        | 4        |
 
-Students will start as discrete groups ${1}, {2}, {3}$ and ${4}$. Students $1$ and $2$ become friends with the first query, as well as students $2$ and $3$ in the second. The new groups are ${1, 2}, {2, 3}$ and ${4}$ which simplifies to ${1, 2, 3}$ and ${4}$. In the third query, the number of friends for student $1 = 3$ and student $4 = 1$ for a Total = $4$. Notice that student $3$ in indirectly part of the circle of friends of student $1$ because of student $2$.
+Students will start as discrete groups ${1}, {2}, {3}$ and ${4}$. Students $1$ and $2$ become friends with the first query, as well as students $2$ and $3$ in the second. The new groups are ${1, 2}, {2, 3}$ and ${4}$ which simplifies to ${1, 2, 3}$ and ${4}$. In the third query, the number of friends for student $1 = 3$ and student $4 = 1$ for a Total $= 4$. Notice that student $3$ in indirectly part of the circle of friends of student $1$ because of student $2$.
 
 ### Function Description
 
