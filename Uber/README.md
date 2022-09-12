@@ -1,11 +1,11 @@
 # Uber
-> Collection of Coding Questions asked by Uber during placements at IITs
+> Collection of coding questions asked by Uber during placements at IITs
 
 ## Questions Index
 
-* [Base Conversion](#1-base-conversion)
-* [XOR Queries](#2-xor-queries)
-* [Zasho Grants Wishes](#3-zasho-grants-wishes)
+* [Base Conversion](#1-base-conversion) [IIT-BHU'21]
+* [XOR Queries](#2-xor-queries) [IIT-BHU'21]
+* [Zasho Grants Wishes](#3-zasho-grants-wishes) [IIT-BHU'21]
 
 ## 1. Base Conversion
 
