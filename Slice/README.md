@@ -10,7 +10,9 @@
 
 You are in a corporate and you need to communicate about a strategic mission in-person to all the people in your company. This information can NOT be broadcasted so you have to tell it to each person in a $1-1$ session. It takes $1$ hour to communicate the information from one person to another. At any given point of time, a manager can communicate this vital strategic information to one of his/her direct reports. Let us say we have the following reporting structure: Find out the minimum number of hours in which the information can be communicated to all the members of the organization.
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Slice/tree.png" width="350">
+<p align="center">
+  <img src="https://github.com/mrsac7/placement-resources/blob/main/Slice/tree.png" width="450">
+<p>
 
 In the above tree, 
 
@@ -29,7 +31,7 @@ Find the minimum number of hours in which all the people in the organization are
 Each line in the input represents an edge between two nodes in the tree separated by a comma.
 
 ```shell
-A, B                                         
+A, B
 A, C
 A, D
 A, E
@@ -50,7 +52,7 @@ G, M
 #### Sample Output
 
 ```shell
-6                                         
+6
 ```
 
 ---
@@ -77,8 +79,9 @@ You will be give the size of the array and the array consisting of the skill lev
 
 `computeMaximumTeamMembers` has the following parameters:
 
-  $number_of_employees$: the size of the array of the total number of employees in the company
-  $skill-level$: an array of integers, where each $A[i]$ is the skill level of the employee $i$.
+* $number \textunderscore of \textunderscore employees$: the size of the array of the total number of employees in the company
+  
+* $skill \textunderscore level$: an array of integers, where each $A[i]$ is the skill level of the employee $i$.
   
 #### Constraints
   
@@ -88,14 +91,14 @@ You will be give the size of the array and the array consisting of the skill lev
 #### Sample Input
 
 ```shell
-6                                            
+6
 1 10 17 12 15 2
 ```
 
 #### Sample Output
 
 ```
-3                                            
+3
 ```
 
 #### Explanation
