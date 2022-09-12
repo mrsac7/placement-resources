@@ -1,10 +1,10 @@
 # Microsoft
-> Collection of Coding Questions asked by Microsoft during placements at IITs
+> Collection of coding questions asked by Microsoft during placements at IITs
 
 ## Questions Index
 
-* [Patients](#1-patients)
-* [Robot](#2-robot)
+* [Patients](#1-patients) [IIT-BHU'21]
+* [Robot](#2-robot) [IIT-BHU'21]
 
 ## 1. Patients
 
