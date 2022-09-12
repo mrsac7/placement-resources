@@ -9,7 +9,7 @@
 
 ## 1. Digrams
 
-We are given a string $S$ consisting of $N$ lowercase letters. A sequence of two adjacent letters inside a string is called a $digram$. The distance between two digrams is the distance between the first letter of the first digram and the first letter of the second digram. For example, in string $S = akcmf$ the distance between digrams $kc$ and $mi$ is $2$. 
+We are given a string $S$ consisting of $N$ lowercase letters. A sequence of two adjacent letters inside a string is called a $digram$. The distance between two digrams is the distance between the first letter of the first digram and the first letter of the second digram. For example, in string $S = akcmz$ the distance between digrams $kc$ and $mz$ is $2$. 
 
 We want to find the distance between the furthest **identical** digrams inside string S. 
 
