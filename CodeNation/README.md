@@ -37,7 +37,7 @@ The first argument is the integer array $A$.
 
 Return an integer denoting the number of different desired subsets modulo $10^9 + 7$.
 
-### Example Input
+#### Example Input
 
 ```shell
 Input 1:
