@@ -37,7 +37,7 @@ Each bomb has 3 numbers associated to it $X, L$ and $R$ and can only be defused 
 
 Amaru is a dumb player who only rushes in, so can you help her in winning by finding the maximum value of ( $X \oplus Y$ ) for all the $N$ bombs?
 
-**Constraints:**
+### Constraints:
 * $1 \leq N \leq 5000$
 * $1 \leq L \leq R \leq 10^9$
 * $1 \leq X \leq 10^9$
@@ -60,7 +60,7 @@ Zasho wants to grant the maximum mumber of wishes possible so that he remains po
 
 In other words, find the maximum possible size of the subset of wishes so that Zasho has enough power before starting each, and has non-negative power after completing each wish.
 
-**Constraints:**
+### Constraints:
 
 * $1 \leq n \leq 100, 1 \leq p \leq 30,000$
 * The next $n$ lines contain the wishes, one per line. The $i$-th wish is represented as a pair of integers $x$ and $y$ ( $1 \leq x \leq 3\times10^4, -300 \leq y \leq 300$ )
