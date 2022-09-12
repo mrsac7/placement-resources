@@ -44,7 +44,8 @@ Returns:
 
 ### Constraints
 
-* $1 \leq cartridges, \ dollars, \ recycleReward, \ perksCost \leq 10^9$
+* $1 \leq cartridges, \ dollars \leq 10^9$
+* $1 \leq recycleReward, \ perksCost \leq 10^9$
 
 
 ---
