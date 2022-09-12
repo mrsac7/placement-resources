@@ -143,7 +143,7 @@ You are also given a $2$-D array $C$ which denotes that there is an undirected e
 
 You have to choose a starting vertex in the beginning or a $root$, and you are only permitted to move from vertex to vertex only if an edge connects them. You are not allowed to visit any visited vertex again.
 
-For every possible selection of the root of the tree, you write the value of $Maximum \ candies \ you \ can \ obtain - Minimum \ candies \ you \ can \ obtain$ using the same root, in your notebook.
+For every possible selection of the root of the tree, you write the value of Maximum candies you can obtain - Minimum candies you can obtain using the same root, in your notebook.
 
 $Note:$ While traversing the tree, you can stop at any vertex you want. In other words, it is not necessary to start from the root and end in a leaf.
 
