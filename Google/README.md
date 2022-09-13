@@ -4,6 +4,7 @@
 ## Questions Index
 
 * [Cookies](#1-cookies) [IIT-BHU'21]
+* [Robotic Moves](#2-robotic-moves) [IIT-BHU'21]
 
 ## 1. Cookies
 
@@ -101,5 +102,64 @@ For every test case, print the number of cookies that can be eaten by Alice, fol
 </td>
 </tr>
 </table>
+
+## 2. Robotic Moves
+
+You have designed a robot. The robot can move only left or right based on the given instruction. The robot is initially at point $0$ on the $X$-axis. You are given $N$ pairs of instructions. Each pair of instructions contains an integer and a character ( $'L'$ or $'R'$ ). For example, consider an instruction $(3, R)$, it means that the robot has to move 3 units right from the current position along the $X$-axis. You are allowed to perform the following operations at most once:
+
+&nbsp;&nbsp;&nbsp;&nbsp; You can remove any number of consecutive instructions but the condition is that the number of left and right instructions should be equal.
+
+For example, you can remove $(2, L)$, $(3, R)$ or $(2, L)$, $(3, R)$, $(4, R)$, $(6, L)$. But you can't remove $(2, L)$ or $(2, L)$, $(3, L)$ or $(3, R)$.
+
+You are required to find the maximum distance the robot can go from initial point $0$.
+
+### Input Format
+
+* The first line contains $T$ denoting the number of test cases.
+* The first line contains $N$ denoting the number of instructions.
+* Next $N$ lines contain $N$ sets of instructions where each line contains space-separated, an integer $D_i$ and a character ( $'L'$ or $'R'$ ).
+
+### Output Format
+
+Print the maximum distance the robot can go from initial point $0$ in a new line.
+
+### Constraints:
+
+* $1 \leq T \leq 10$
+* $1 \leq N \leq 10^5$
+* $0 \leq D_i \leq 10^6$
+
+<table>
+<tr>
+<td> Sample Input </td>
+<td> Sample Output </td>
+</tr>
+<tr>
+<td>
+
+```shell
+1                            
+5
+2 L
+3 R
+4 L
+1 R
+5 L
+```
+
+</td>
+<td>
+
+```shell
+8                            
+```
+
+</td>
+</tr>
+</table>
+
+### Explanation
+
+Remove first and second instructions.
 
 
