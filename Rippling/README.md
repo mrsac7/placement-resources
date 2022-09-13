@@ -305,5 +305,5 @@ The sum of $Q$ over all test cases does not exceed $2 \times 10^6$
 
 In the first query $(1, 4)$:
 
-The maximum of forces $(1, 2), \ (1, 3)$, $(1, 4), \ (2, 3)$, $(2, 4), \ (3, 4)$ is between $(2, 4) with value $8$ and the maximum product of masses is between $(2, 4)$ with value $32$.
+The maximum of forces $(1, 2), \ (1, 3)$, $(1, 4), \ (2, 3)$, $(2, 4), \ (3, 4)$ is between $(2, 4)$ with value $8$ and the maximum product of masses is between $(2, 4)$ with value $32$.
 
