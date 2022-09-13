@@ -3,7 +3,7 @@
 
 ## Questions Index
 
-* [Keypad Strokes](#1-keypard-strokes) [IIT-BHU'21]
+* [Keypad Strokes](#1-keypad-strokes) [IIT-BHU'21]
 * [Age Grouping](#2-age-grouping) [IIT-BHU'21]
 * [Branching and Palindrome](#3-branching-and-palindrome) [IIT-BHU'21]
 
@@ -15,7 +15,10 @@ The keypad shows below works as follows:
 
 To type $a$, it requires a single stroke on the $'2'$ button, to type $b$, it requires two strokes on the $'2'$ button, to type $c$, it requires three strokes on the $'2'$ button, to type $d$, it requires a single stroke on the $'3'$ button. It works the same way for the other alphabets.
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Ola%20Cabs/key.png" width="300">
+<p align="center">
+  <img src="https://github.com/mrsac7/placement-resources/blob/main/Ola%20Cabs/key.png" width="250">
+<p>
+
 
 For each stroke, one second time is consumed. If two characters are typed using the same button consecutively, one second additional time will be required. You are given a string $str$, print the time taken to type $str$ using the given keypad.
 
@@ -251,7 +254,7 @@ Print the number if it is a palindrome and "NOT PALINDROME" if it is not.
 
 The input forms the following tree:
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Ola%20Cabs/t.png" width="300">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Ola%20Cabs/t.png" width="175">
 
 The left view of the tree forms the number $464$. Thus the output is $464$ as it is a palindrome.
 
