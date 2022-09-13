@@ -23,6 +23,9 @@ Single line of input consists of two integers $L$ and $W$ which are the length a
 
 Single line of output has the number of sub-rectangles that can be created within the rectangle
 
+
+### Examples
+
 <table>
 <tr>
 <td> Sample Input 1 </td>
@@ -50,7 +53,7 @@ Single line of output has the number of sub-rectangles that can be created withi
 
 From the given dimension, length and width are $2$ and $2$ respectively. The following sub-rectangles can be formed.
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Ola%20Cabs/ex1.png" width="250">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Goldman%20Sachs/ex1.png" width="500">
 
 Hence, the number of sub-rectangles that can be created is $4 + 2 + 2 + 1 = 9$
 
@@ -81,7 +84,7 @@ Hence, the number of sub-rectangles that can be created is $4 + 2 + 2 + 1 = 9$
 
 Length = $3$ and Width = $2$. The following sub-rectangles can be created.
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Ola%20Cabs/ex2.png" width="250">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Goldman%20Sachs/ex2.png" width="600">
 
 Hence, total $18$ sub-rectangles can be created within the given rectangle.
 
@@ -113,6 +116,8 @@ Single line of output contains the word on the envelope.
 * $1 \leq K \leq 26$
 * $1 \leq X \leq 10^9$
 * $X$ will always be less than or equal to the total number of words that are possible.
+
+### Examples
 
 <table>
 <tr>
