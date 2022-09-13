@@ -22,7 +22,7 @@ Complete the function `minDeletions`.
 
 `minDeletions` has the following parameter(s):
 
-* $int \ arr[n]$: an unsorted array of integers
+* $int \ \ arr[n]$: an unsorted array of integers
 
 $\textbf{Returns}$:
 * $int$: the minimum number of items that must be deleted to create an almost sorted array
@@ -35,3 +35,69 @@ $\textbf{Returns}$:
 ---
 
 ### 2. Shared Interest
+
+Given a graph of friends who have different interests, determine which groups of friends have the most interests in common. Then use a little math to determine a value to return.
+
+The graph will be represetned as a series of nodes numbered consecutively from $1$ to $friends_nodes$. Friendships have evolved based on interests which will be represented as weights in the graphs. Any members who share the same interest are said to be connected by that interest. Once the node pairs with the maximum number of shared interests are determined, multiply the $friends_nodes$ of the resutling node pairs and return the maximal product.
+
+### Example
+
+$friends \textunderscore node = 4$
+
+$friends \textunderscore edges = 5$
+
+$friends \textunderscore from = [1, 1, 2, 2, 2]$
+
+$friends \textunderscore to = [2, 2, 3, 3, 4]$
+
+$friends \textunderscore weight = [2, 3, 1, 3, 4]$
+
+| From &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | To &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Weight &nbsp; &nbsp; &nbsp; |
+| -------- | -------- | -------- |
+| $1$        | $2$    | $2$        |
+| $1$        | $2$    | $3$        |
+| $2$        | $3$    | $1$        |
+| $2$        | $3$    | $3$        |
+| $2$        | $4$    | $4$        |
+
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Indeed/gph.png" width="300">
+
+The graph shows the following connections:
+
+| Weight &nbsp; &nbsp; &nbsp; <br /> (Interest) &nbsp; &nbsp; &nbsp; | Connectons &nbsp; &nbsp; &nbsp; |
+| -------- | -------- |
+| $1$        | $2, 3$   |
+| $2$        | $1, 2$   |
+| $3$        | $1, 2, 3$   |
+| $4$        | $2, 4$   |
+
+* Node pair $(2, 4)$ shares only $1$ interest $(4)$ and node pair $(1, 3)$ shares $1$ intereste $(3)$.
+* Node pair $(1, 2)$ shares $2$ interests (interests $2$ and $3$ ) and node pair $(2, 3)$ shares also $2$ interests (interest $1$ and $3$ ). So, the maximum number of shared interests is $2$.
+* Multiply the $friends \textunderscore nodes$ of the resulting node pairs: $1 \times 2 = 2$ and $2 \times 3 = 6$
+* The maximal product is $6$.
+
+### Function Description
+
+Comeplete the function `maxShared`.
+
+`maxShared` has the following parameter(s):
+* $int \ \ friends \textunderscore nodes$: number of nodes
+* $int \ \ friends \textunderscore from[friends_edges]$: the first part of node pairs
+* $int \ \ friends \textunderscore to[friends_edges]$: the other part of node pairs
+* $int \ \ friends \textunderscore weight[friends_edges]$: the interests of node pairs
+
+$\textbf{Returns}$:
+* $int$: maximal interger product of all node pairs sharing the most interests.
+
+### Constraints
+
+* $2 \leq friends \textunderscore nodes \leq 100$
+* $1 \leq friends \textunderscore edges \leq min(200, \frac{friends \textunderscore nodes \ \times \ (friends \textunderscore nodes - 1)}{2})$
+* $1 \leq friends \textunderscore weight[i] \leq 100$
+* $1 \leq friends \textunderscore from[i], friends \textunderscore to[i] \leq friends \textunderscore nodes$
+* $1 \leq friends \textunderscore weight[i] \leq friends \textunderscore edges$
+* $friends \textunderscore from[i] \neq friends \textunderscore to[i]$
+* Each pair of friends can be connected by zero or more interests.
+
+
+
