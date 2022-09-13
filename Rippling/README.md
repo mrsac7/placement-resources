@@ -286,6 +286,7 @@ The sum of $Q$ over all test cases does not exceed $2 \times 10^6$
 3 4 4
 1 4
 1 3
+2 4
 ```
 
 </td>
