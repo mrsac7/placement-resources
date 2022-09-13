@@ -22,7 +22,7 @@ Find the number of such possible arragements $\textbf{mod} \ 10^9 + 7$.
 
 $\textbf{Note}$ $X$ can be greater than $K$.
 
-### Output
+### Output Format
 
 For every test case print the number of arrangments $\textbf{mod} \ 10^9 + 7$.
 
@@ -80,7 +80,7 @@ Your task is to maximize the number of new edges in the graph that can be added.
 * Next line: An empty line
 * Next line: $K$ space-separated integers each representing the special nodes in a connected component
 
-### Output format
+### Output Format
 
 Print the maximum number of new edges that can be added to the graph and the minimum cost of doing so.
 
