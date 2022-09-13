@@ -123,7 +123,7 @@ You are required to find the maximum distance the robot can go from initial poin
 
 Print the maximum distance the robot can go from initial point $0$ in a new line.
 
-### Constraints:
+### Constraints
 
 * $1 \leq T \leq 10$
 * $1 \leq N \leq 10^5$
