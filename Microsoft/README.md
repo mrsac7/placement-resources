@@ -32,8 +32,8 @@ Examples:
 
 Write an **efficient** algorithm for the following assumptions:
 
-* N is an integer within the range $[1..10^5]$;
-* S is an integer within the range $[2..10^5]$;
+* $N$ is an integer within the range $[1..10^5]$;
+* $S$ is an integer within the range $[2..10^5]$;
 * each element of arrays $A$ and $B$ is an integer within the range $[1..S]$;
 * no patient has two preferrences for the same slot, i.e. $A[i] \neq B[i]$.
 
