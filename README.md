@@ -14,3 +14,4 @@
 - [InMobi](https://github.com/mrsac7/placement-resources/tree/main/InMobi)
 - [Rippling](https://github.com/mrsac7/placement-resources/tree/main/Rippling)
 - [Eightfold.ai](https://github.com/mrsac7/placement-resources/tree/main/Eightfold.ai)
+- [Ola Cabs](https://github.com/mrsac7/placement-resources/tree/main/Ola%20Cabs)
