@@ -3,8 +3,8 @@
 
 ## Questions Index
 
-* [Aptitude Questions](#1-atitude-questions) [IIT-BHU'21]
-* [Crime Investigation](#2-crimem-investigation) [IIT-BHU'21]
+* [Aptitude Questions](#1-aptitude-questions) [IIT-BHU'21]
+* [Crime Investigation](#2-crime-investigation) [IIT-BHU'21]
 
 ## 1. Aptitude Questions
 
