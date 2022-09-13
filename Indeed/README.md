@@ -8,7 +8,7 @@
 
 ### 1. Almost Sorted
 
-An array of integers is $\textbf{almost sorted}$ if at most one element can be deleted from it to make it perfectly sorted, ascending. For example, arrays $[2, 1, 7]$, $[13], $[9, 2]$ and $[1, 5, 6]$ are almost sorted because they have $0$ or $1$ elements out of place. The arrays $[4, 2, 1]$, $[1, 2, 6, 4, 3]$ are not because they have more than one element out of place. Given an array of $n$ unique integers, determine the minimum number of elements to remove so it becomes almost sorted.
+An array of integers is $\textbf{almost sorted}$ if at most one element can be deleted from it to make it perfectly sorted, ascending. For example, arrays $[2, 1, 7]$, $[13]$, $[9, 2]$ and $[1, 5, 6]$ are almost sorted because they have $0$ or $1$ elements out of place. The arrays $[4, 2, 1]$, $[1, 2, 6, 4, 3]$ are not because they have more than one element out of place. Given an array of $n$ unique integers, determine the minimum number of elements to remove so it becomes almost sorted.
 
 ### Example
 
@@ -82,9 +82,9 @@ Comeplete the function `maxShared`.
 
 `maxShared` has the following parameter(s):
 * $int \ \ friends \textunderscore nodes$: number of nodes
-* $int \ \ friends \textunderscore from[friends_edges]$: the first part of node pairs
-* $int \ \ friends \textunderscore to[friends_edges]$: the other part of node pairs
-* $int \ \ friends \textunderscore weight[friends_edges]$: the interests of node pairs
+* $int \ \ friends \textunderscore from[friends \textunderscore edges]$: the first part of node pairs
+* $int \ \ friends \textunderscore to[friends \textunderscore edges]$: the other part of node pairs
+* $int \ \ friends \textunderscore weight[friends \textunderscore edges]$: the interests of node pairs
 
 $\textbf{Returns}$:
 * $int$: maximal interger product of all node pairs sharing the most interests.
@@ -92,7 +92,7 @@ $\textbf{Returns}$:
 ### Constraints
 
 * $2 \leq friends \textunderscore nodes \leq 100$
-* $1 \leq friends \textunderscore edges \leq min(200, \frac{friends \textunderscore nodes \ \times \ (friends \textunderscore nodes - 1)}{2})$
+* $1 \leq friends \textunderscore edges \leq$ $min(200, \frac{friends \textunderscore nodes \ \times \ (friends \textunderscore nodes - 1)}{2})$
 * $1 \leq friends \textunderscore weight[i] \leq 100$
 * $1 \leq friends \textunderscore from[i], friends \textunderscore to[i] \leq friends \textunderscore nodes$
 * $1 \leq friends \textunderscore weight[i] \leq friends \textunderscore edges$
