@@ -34,10 +34,10 @@ Complete the `maxPerksItems` function.
 
 `maxPerksItems` has the following parameter(s):
 
-* $int \ cartridges$: the number of cartridges on-hand
-* $int \ dollars$: the number of dollars on-hand
-* $int \ recycleReward$: dollars earned per recycled cartridge
-* $int \ perksCost$: dollar cost of a perks item, in addition to recycling a single cartridge.
+* $int \ \ cartridges$: the number of cartridges on-hand
+* $int \ \ dollars$: the number of dollars on-hand
+* $int \ \ recycleReward$: dollars earned per recycled cartridge
+* $int \ \ perksCost$: dollar cost of a perks item, in addition to recycling a single cartridge.
 
 $\textbf{Returns}:
 * $int$: the maximum number of perks items that can be bought
@@ -120,8 +120,8 @@ $highLimit = 10$
 Complete the function `waysToChooseSum`.
 
 `waysToChooseSum` has the following parameter(s):
-* $long \ lowLimit$: a long integer, the starting number of the lottery coupons
-* $long \ highLimit$: a long integer, the ending number fo the lottery coupons
+* $long \ \ lowLimit$: a long integer, the starting number of the lottery coupons
+* $long \ \ highLimit$: a long integer, the ending number fo the lottery coupons
 
 $\textbf{Returns}$:
 * $long[2]$: an array of long integers containing the number of ways to choose the maximum number of winners and the number of participants who will win the lottery.
