@@ -22,13 +22,13 @@ that, given two arrays $A$ and $B$, both of $N$ integers and an integer $S$, ret
 
 Examples:
 
-1. Given $A = [1, 1, 3], B = [2, 2, 1]$ and $S = 3$, the function should return `true`. We could assign patients in the following way: $[1, 2, 3]$, where the $K$-th element of the array represents the number of the slot to which patient $K$ was assigned. Another correct assignment would be $[2, 1, 3]$. On the other hand, $[2, 2, 1]$ would be an incorrect assignment as two patients would be assigned to slot $2$.
+1. Given $A = [1, 1, 3], \ B = [2, 2, 1]$ and $S = 3$, the function should return `true`. We could assign patients in the following way: $[1, 2, 3]$, where the $K$-th element of the array represents the number of the slot to which patient $K$ was assigned. Another correct assignment would be $[2, 1, 3]$. On the other hand, $[2, 2, 1]$ would be an incorrect assignment as two patients would be assigned to slot $2$.
 
-2. Given $A = [3, 2, 3], B = [1, 3, 1 2]$ and $S = 3$, the function should return `false`. There are only three slots available, but there are four patients who want to visit the doctor. It is therefore not possible to assign the patients to the slots so that only one patient at a time would visit the doctor.
+2. Given $A = [3, 2, 3], \ B = [1, 3, 1 2]$ and $S = 3$, the function should return `false`. There are only three slots available, but there are four patients who want to visit the doctor. It is therefore not possible to assign the patients to the slots so that only one patient at a time would visit the doctor.
 
-3. Given  $A = [2, 5, 6, 5], B = [5, 4, 2, 2]$ and $S = 8$, the function should return `true`. For example, we could assign patients in the following way: $[5, 4, 6, 2]$.
+3. Given  $A = [2, 5, 6, 5], \ B = [5, 4, 2, 2]$ and $S = 8$, the function should return `true`. For example, we could assign patients in the following way: $[5, 4, 6, 2]$.
 
-4. Given $A = [1, 2, 1, 6, 8, 7, 8], B = [2, 3, 4, 7, 7, 8, 7]$ and $S = 10$, the function should return `false`. It is not possible to assign all of the patients to one of their preferred slots so that only one patient will visit the doctor during one slot.
+4. Given $A = [1, 2, 1, 6, 8, 7, 8], \ B = [2, 3, 4, 7, 7, 8, 7]$ and $S = 10$, the function should return `false`. It is not possible to assign all of the patients to one of their preferred slots so that only one patient will visit the doctor during one slot.
 
 Write an **efficient** algorithm for the following assumptions:
 
