@@ -11,7 +11,7 @@
 Alice loves cookies. One day while wandering, she came across a cookie-world that has $N$ cookies in it, numbered from $1$ to $N$. 
 Each cookie has an energy count of $E_i$ and is stored at height $H_i$. Initially, Alice's energy is $K$, and after eating a cookie with energy $E_i$ her energy increases by $E_i$.
 
-In each step, Alice can climb to a certain height and can eat a cookie and return to her original position, but climbing requires energy, and she can only climb height $H_i$ if her energy $K$ is greater than or equal to the height $H_i$.
+In each step, Alice can climb to a certain height and can eat a cookie and return to her original position, but climbing requires energy, and she can only climb height $H_i$ &nbsp;if her energy $K$ is greater than or equal to the height $H_i$.
 
 ### Task
 
@@ -73,7 +73,7 @@ For every test case, print the number of cookies that can be eaten by Alice, fol
 * $1 \leq T \leq 10$
 * $1 \leq N \leq 10^5$
 * $1 \leq K \leq 10^9$
-* $1 \leq H_i, E_i \leq 10^5$
+* $1 \leq H_i, \ E_i \leq 10^5$
 
 <table>
 <tr>
