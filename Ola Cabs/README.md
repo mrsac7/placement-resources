@@ -100,7 +100,7 @@ dog
 
 ### Problem Statement
 
-There is a class of $N$ students. Given an array named $arr$ of size $N$ which contains the age of all th students. You are given an integer $k$ in the input, and the task is to count the number of unique groups of $k$ students who have the same age, For example:
+There is a class of $N$ students. Given an array named $arr$ of size $N$ which contains the age of all the students. You are given an integer $k$ in the input, and the task is to count the number of unique groups of $k$ students who have the same age, For example:
 
 If $k$ is $2$, then we have to find the total number of unqiue pairs of students who have the same ages.
 
