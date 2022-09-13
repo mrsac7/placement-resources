@@ -139,7 +139,7 @@ banking
 </tr>
 </table>
 
-$\textbf{Explanation 1}$
+### Explanation 1
 
 The length of the word is $7$, of which $1$ letter is missing.
 
@@ -181,7 +181,7 @@ ansk
 </tr>
 </table>
 
-$\textbf{Explanation 2}$
+### Explanation 2
 
 The length of the word is $4$, of which $2$ letters are missing. 
 
