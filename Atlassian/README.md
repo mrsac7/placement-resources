@@ -39,7 +39,7 @@ Complete the `maxPerksItems` function.
 * $int \ \ recycleReward$: dollars earned per recycled cartridge
 * $int \ \ perksCost$: dollar cost of a perks item, in addition to recycling a single cartridge.
 
-$\textbf{Returns}:
+$\textbf{Returns}$:
 * $int$: the maximum number of perks items that can be bought
 
 ### Constraints
