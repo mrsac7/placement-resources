@@ -65,7 +65,7 @@ In other words, find the maximum possible size of the subset of wishes so that Z
 * $1 \leq n \leq 100, 1 \leq p \leq 30,000$
 * The next $n$ lines contain the wishes, one per line. The $i$-th wish is represented as a pair of integers $x$ and $y$ ( $1 \leq x \leq 3\times10^4, -300 \leq y \leq 300$ )
 
-**Example:**
+### Example
 
 If the input is
 
