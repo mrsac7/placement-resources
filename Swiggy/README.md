@@ -76,7 +76,7 @@ Complete the function `perfectSubstring`.
 * $str \ \ s$: a string where the value of each element $s[i]$ described by the character at position $i$ (where $0 \leq i \lt n)
 * $int \ \ k$: an integer that denotes the required frequency of the substring
 
-### Output
+$\textbf{Returns}$
 
 * $int$: an integer that represents the number of perfect substrings in the given string
 
