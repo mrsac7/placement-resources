@@ -49,7 +49,7 @@ Single line of output has the number of sub-rectangles that can be created withi
 </tr>
 </table>
 
-### Explanation 1
+$\textbf{Explanation 1}$
 
 From the given dimension, length and width are $2$ and $2$ respectively. The following sub-rectangles can be formed.
 
@@ -80,7 +80,7 @@ Hence, the number of sub-rectangles that can be created is $4 + 2 + 2 + 1 = 9$
 </tr>
 </table>
 
-### Explanation 2
+$\textbf{Explanation 2}$
 
 Length = $3$ and Width = $2$. The following sub-rectangles can be created.
 
@@ -144,7 +144,7 @@ banking
 </tr>
 </table>
 
-### Explanation 1
+$\textbf{Explanation 1}$
 
 The length of the word is $7$, of which $1$ letter is missing.
 
@@ -186,7 +186,7 @@ ansk
 </tr>
 </table>
 
-### Explanation 2
+$\textbf{Explanation 2}$
 
 The length of the word is $4$, of which $2$ letters are missing. 
 
