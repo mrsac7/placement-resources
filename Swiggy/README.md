@@ -1,5 +1,5 @@
-# Indeed
-> Collection of coding questions asked by Indeed during placements at IITs
+# Swiggy
+> Collection of coding questions asked by Swiggy during placements at IITs
 
 ## Questions Index
 
