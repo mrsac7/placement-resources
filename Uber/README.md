@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [Base Conversion](#1-base-conversion) [IIT-BHU'21]
-* [XOR Queries](#2-xor-queries) [IIT-BHU'21]
-* [Zasho Grants Wishes](#3-zasho-grants-wishes) [IIT-BHU'21]
+* [Base Conversion](#1-base-conversion) [IIT-BHU'22]
+* [XOR Queries](#2-xor-queries) [IIT-BHU'22]
+* [Zasho Grants Wishes](#3-zasho-grants-wishes) [IIT-BHU'22]
 
 ## 1. Base Conversion
 
