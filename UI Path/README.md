@@ -76,7 +76,7 @@ There are $friends \textunderscore nodes$ friends, numbered from $1$ to $friends
 
 Everyone uses the same company, but not everyone is connected. A graphical representation is:
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/Ui%20Path/max.png" width="500">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/UI%20Path/max.png" width="600">
 
 the largest group is $[1, 2, 3, 7]$ and its largest elements are $3$ and $7$. Their product is $21$.
 
@@ -113,7 +113,7 @@ Given a number line from $0$ to $n$ and a string denoting a sequence of moves, d
 
 For example, given a number line from $0$ to $6$, and a sequence of moves $rrlrlr$, the number of subsequnce that lead from $1$ to $4$ on the number line is $3$, as shown below:
 
-<img src="https://github.com/mrsac7/placement-resources/blob/main/UI%20Path/path.png" width="500">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/UI%20Path/path.png" width="450">
 
 $\textbf{Note}$: Subsequnces are created by deleting $0$ or more elements from a sequnce without changing the order. Return the answer modulo $(10^9 + 7)$.
 
