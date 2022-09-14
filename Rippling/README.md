@@ -17,7 +17,7 @@ The agent tells him that in one operation, any two plots can be merged, and in r
 
 This operation can be performed until he is left with one plot.
 
-**Help him merge the plots such that in the end, he is left with one plot whose are is the sum of the all his current plots, but the cost shall remain minimum.**
+**Help him merge the plots such that in the end, he is left with one plot whose area is the sum of the all his current plots, but the cost shall remain minimum.**
 
 Also, let him know if it is profitable to merge the plots.
 
