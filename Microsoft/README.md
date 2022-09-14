@@ -3,8 +3,8 @@
 
 ## Questions Index
 
-* [Patients](#1-patients) [IIT-BHU'21]
-* [Robot](#2-robot) [IIT-BHU'21]
+* [Patients](#1-patients) [IIT-BHU'22]
+* [Robot](#2-robot) [IIT-BHU'22]
 
 ## 1. Patients
 
