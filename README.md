@@ -19,3 +19,4 @@
 - [Goldman Sachs](https://github.com/mrsac7/placement-resources/tree/main/Goldman%20Sachs)
 - [Swiggy](https://github.com/mrsac7/placement-resources/tree/main/Swiggy)
 - [UI Path](https://github.com/mrsac7/placement-resources/tree/main/UI%20Path)
+- [Lambdatest](https://github.com/mrsac7/placement-resources/tree/main/Lambdatest)
