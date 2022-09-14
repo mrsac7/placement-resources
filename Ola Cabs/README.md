@@ -40,6 +40,8 @@ Print the time taken to type $str$ using the given keypad.
 * $0 \leq N \leq 10^5$.
 * All the alphabets of the string are in lower case.
 
+### Examples
+
 <table>
 <tr>
 <td> Sample Input 1 </td>
@@ -126,6 +128,8 @@ Print the number of unique groups of $k$ students who have the same age. As the 
 * $1 \leq N \leq 10^5$
 * $2 \leq k \leq \ N$
 * $1 \leq$ age of a student $\leq 10^9$
+
+### Examples
 
 <table>
 <tr>
@@ -222,6 +226,8 @@ Print the number if it is a palindrome and "NOT PALINDROME" if it is not.
 ### Constraints
 
 * $0 < N < 1000$
+
+### Examples
 
 <table>
 <tr>
