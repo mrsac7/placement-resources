@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [Keypad Strokes](#1-keypad-strokes) [IIT-BHU'21]
-* [Age Grouping](#2-age-grouping) [IIT-BHU'21]
-* [Branching and Palindrome](#3-branching-and-palindrome) [IIT-BHU'21]
+* [Keypad Strokes](#1-keypad-strokes) [IIT-BHU'22]
+* [Age Grouping](#2-age-grouping) [IIT-BHU'22]
+* [Branching and Palindrome](#3-branching-and-palindrome) [IIT-BHU'22]
 
 ## 1. Keypad Strokes
 
