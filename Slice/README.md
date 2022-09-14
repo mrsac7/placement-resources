@@ -3,8 +3,8 @@
 
 ## Questions Index
 
-* [Message Passing](#1-message-passing) [IIT-BHU'21]
-* [Team Formation](#2-team-formation) [IIT-BHU'21]
+* [Message Passing](#1-message-passing) [IIT-BHU'22]
+* [Team Formation](#2-team-formation) [IIT-BHU'22]
 
 ## 1. Message Passing
 
