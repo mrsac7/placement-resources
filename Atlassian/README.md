@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [Cartridge Recycling](#1-cartridge-recycling) [IIT-BHU'21]
-* [Get the Groups](#2-get-the-groups) [IIT-BHU'21]
-* [Digit Sum](#3-digit-sum) [IIT-BHU'21]
+* [Cartridge Recycling](#1-cartridge-recycling) [IIT-BHU'22]
+* [Get the Groups](#2-get-the-groups) [IIT-BHU'22]
+* [Digit Sum](#3-digit-sum) [IIT-BHU'22]
 
 ## 1. Cartridge Recycling
 
