@@ -127,7 +127,7 @@ Print the maximum number of new edges that can be added to the graph and the min
 </tr>
 </table>
 
-### Explanation
+$\textbf{Explanation}$
 
 The given graph consist of 5 connected components. $(1, 2, 3)$, $(4, 5, 6, 7)$, $(8)$, $(9, 10)$, $(11, 12)$. $1$ is the special node in $(1, 2, 3)$ and $4$ is the special node in $(4, 5, 6, 7)$.
 There is no special node in $(8)$, $(9, 10)$, $(11, 12)$.
@@ -201,7 +201,7 @@ Print one number denoting the number of **shops** that Sam can visit considering
 </tr>
 </table>
 
-### Explanation
+$\textbf{Explanation}$
 
 * Shops at $(0, 0)$, $(0, 1)$, $(1, 0)$ inside the mall satsify all the conditions.
 * Shop at $(1, 1)$ has distance more than $8$ from wife's location $(-7, 0)$
