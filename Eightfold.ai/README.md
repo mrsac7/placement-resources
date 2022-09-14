@@ -31,7 +31,7 @@ For every test case print the number of arrangments $\textbf{mod} \ 10^9 + 7$.
 * $1 \leq N \leq 10^5$
 * $1 \leq X, K \leq 5$
 
-### Example
+### Sample Test
 
 <table>
 <tr>
@@ -94,7 +94,7 @@ Print the maximum number of new edges that can be added to the graph and the min
 * It is guaranteed that for any connected component at most one special node exists.
 * The given graph does not contain any self-loops or multiple edges.
 
-### Example
+### Sample Test
 
 <table>
 <tr>
@@ -175,7 +175,7 @@ Print one number denoting the number of **shops** that Sam can visit considering
 * $-10^5 \leq x_c, y_c \leq 10^5$
 * $0 \leq R \leq 10^5$
 
-### Example
+### Sample Test
 
 <table>
 <tr>
