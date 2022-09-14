@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [Omega Primes](#1-omega-primes) [IIT-BHU'21, IIT-K'21]
-* [Root It](#2-root-it) [IIT-BHU'21, IIT-K'21]
-* [Shortest Path Function](#3-shortest-path-function) [IIT-BHU'21, IIT-K'21]
+* [Omega Primes](#1-omega-primes) [IIT-BHU'22, IIT-K'22]
+* [Root It](#2-root-it) [IIT-BHU'22, IIT-K'22]
+* [Shortest Path Function](#3-shortest-path-function) [IIT-BHU'22, IIT-K'22]
 
 ## 1. Omega Primes
 
