@@ -132,7 +132,7 @@ Complete the `solve` function. This function takes the following parameter and r
 
 * $1 \leq N \leq 10^6$
 
-### Example
+### Examples
 
 <table>
 <tr>
