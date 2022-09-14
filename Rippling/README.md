@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [So Many Plots](#1-so-many-plots) [IIT-BHU'21]
-* [Max Divisor Tree](#2-max-divisor-tree) [IIT-BHU'21]
-* [Maximum Force](#3-maximum-force) [IIT-BHU'21]
+* [So Many Plots](#1-so-many-plots) [IIT-BHU'22]
+* [Max Divisor Tree](#2-max-divisor-tree) [IIT-BHU'22]
+* [Maximum Force](#3-maximum-force) [IIT-BHU'22]
 
 ## 1. So Many Plots
 
