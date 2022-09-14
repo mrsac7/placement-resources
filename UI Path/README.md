@@ -100,7 +100,7 @@ $\textbf{Returns}$
 * $2 \leq friends \textunderscore nodes \leq 100$
 * $1 \leq friends \textunderscore edges \leq$ $min(200, \frac{friends \textunderscore nodes \ \times \ (friends \textunderscore nodes - 1)}{2})$
 * $1 \leq friends \textunderscore weight[i] \leq 100$
-* $1 \leq friends \textunderscore from[i], friends \textunderscore to[i] \leq friends \textunderscore nodes$
+* $1 \leq friends \textunderscore from[i], \ friends \textunderscore to[i] \leq friends \textunderscore nodes$
 * $1 \leq friends \textunderscore weight[i] \leq friends \textunderscore edges$
 * $friends \textunderscore from[i] \neq friends \textunderscore to[i]$
 * Each pair of friends can be connected by more than one compnay.
