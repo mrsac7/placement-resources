@@ -21,7 +21,7 @@ If there are multiple answers give $(x, \ y)$ pair with the smallest $x$. If the
 
 * $2 \leq low \leq high \leq 1000$
 
-### Examples
+### Sample Tests
 
 <table>
 <tr>
@@ -129,7 +129,7 @@ Gojo is given $2$ strings, help Gojo to find unique number for these strings.
 
 Print Unique number for given two strings.
 
-### Examples
+### Sample Tests
 
 <table>
 <tr>
@@ -212,6 +212,8 @@ The miner want themselves to be as efficient as possible, your task is to help m
 * $1 \leq c_i \leq 10^{12}$
 * $1 \leq e_i \leq 10^{12}$
 
+### Sample Tests
+
 <table>
 <tr>
 <td> Sample Input 1 </td>
@@ -284,6 +286,8 @@ MindTickle is organising a game for its employees and in this game each individu
 
 * The first line contains three integers $n$, $m$, and $p$ 
 * The second line contains $n$ integers $b_1, \ b_2,... \ , b_n$
+
+### Sample Test
 
 <table>
 <tr>
