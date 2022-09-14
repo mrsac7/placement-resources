@@ -38,7 +38,7 @@ $1 \leq M \leq 3 * 10^5$
 
 $|c_{ij}| \leq 10^9$
 
-### Example
+### Sample Test
 
 <table width="600px">
 <tr>
@@ -109,7 +109,7 @@ $1 \leq K \leq N \leq 10^5$
 
 $G_i \leq 10^4$
 
-### Example
+### Sample Test
 
 <table>
 <tr>
