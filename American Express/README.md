@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [Digrams](#1-digrams) [IIT-BHU'21]
-* [Make Zero](#2-make-zero) [IIT-BHU'21]
-* [Merge Lists](#3-merge-lists) [IIT-BHU'21]
+* [Digrams](#1-digrams) [IIT-BHU'22]
+* [Make Zero](#2-make-zero) [IIT-BHU'22]
+* [Merge Lists](#3-merge-lists) [IIT-BHU'22]
 
 ## 1. Digrams
 
