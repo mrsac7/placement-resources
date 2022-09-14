@@ -67,7 +67,7 @@ Print two lines, print the minimum cost to achieve one plot of the area after me
 * $1 \leq A_i \leq 10^4$
 * $1 \leq Cost \ per \ unit \ Area \leq 10$
 
-### Example
+### Sample Test
 
 <table>
 <tr>
@@ -132,7 +132,7 @@ Complete the `solve` function. This function takes the following parameter and r
 
 * $1 \leq N \leq 10^6$
 
-### Examples
+### Sample Tests
 
 <table>
 <tr>
@@ -271,7 +271,7 @@ The sum of $N$ over all test cases does not exceed $2 \times 10^3$
 
 The sum of $Q$ over all test cases does not exceed $2 \times 10^6$
 
-### Example
+### Sample Test
 
 <table>
 <tr>
