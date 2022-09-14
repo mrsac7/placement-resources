@@ -127,3 +127,45 @@ $\textbf{Returns}$
 * $1 \leq n \leq 2 \times 10^5$
 * $0 \leq stones[i] \leq 10^9$
 
+### Sample Test
+
+<table>
+<tr>
+<td> Sample Input </td>
+<td> Sample Output </td>
+</tr>
+<tr>
+<td>
+
+```shell
+5 4                             
+1 2
+2 3
+2 4
+3 5
+5
+1 5 7 8 3
+```
+
+</td>
+<td>
+
+```shell
+10                             
+```
+
+</td>
+</tr>
+</table>
+
+$\textbf{Explanation}$
+
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Swiggy/exp.png" width="500">
+
+Following are the optimal changes that will make the given tree balanced using minimum stones:
+
+* Add $2$ stones to node $'2'$
+* Add $5$ stones to node $'1'$
+* Add $3$ stones to node $'5'$
+
+After performing the above $3$ operations, the tree will get balanced. The number of stones used is $2 + 5 + 3 = 10$.
