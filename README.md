@@ -17,3 +17,4 @@
 - [Ola Cabs](https://github.com/mrsac7/placement-resources/tree/main/Ola%20Cabs)
 - [Indeed](https://github.com/mrsac7/placement-resources/tree/main/Indeed)
 - [Goldman Sachs](https://github.com/mrsac7/placement-resources/tree/main/Goldman%20Sachs)
+- [Swiggy](https://github.com/mrsac7/placement-resources/tree/main/Swiggy)
