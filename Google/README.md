@@ -3,8 +3,8 @@
 
 ## Questions Index
 
-* [Cookies](#1-cookies) [IIT-BHU'21]
-* [Robotic Moves](#2-robotic-moves) [IIT-BHU'21]
+* [Cookies](#1-cookies) [IIT-BHU'22]
+* [Robotic Moves](#2-robotic-moves) [IIT-BHU'22]
 
 ## 1. Cookies
 
