@@ -21,3 +21,4 @@
 - [UI Path](https://github.com/mrsac7/placement-resources/tree/main/UI%20Path)
 - [Lambdatest](https://github.com/mrsac7/placement-resources/tree/main/Lambdatest)
 - [MindTickle](https://github.com/mrsac7/placement-resources/tree/main/MindTickle)
+- [VMware](https://github.com/mrsac7/placement-resources/tree/main/VMware)
