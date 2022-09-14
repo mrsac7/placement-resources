@@ -3,8 +3,8 @@
 
 ## Questions Index
 
-* [Almost Sorted](#1-almost-sorted) [IIT-BHU'21]
-* [Shared Interest](#2-shared-interest) [IIT-BHU'21]
+* [Almost Sorted](#1-almost-sorted) [IIT-BHU'22]
+* [Shared Interest](#2-shared-interest) [IIT-BHU'22]
 
 ### 1. Almost Sorted
 
