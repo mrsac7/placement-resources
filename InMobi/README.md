@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [Broken Chain](#1-broken-chain) [IIT-BHU'21]
-* [Reportee Count](#2-reportee-count) [IIT-BHU'21]
-* [Connected Flights](#3-connected-flights) [IIT-BHU'21]
+* [Broken Chain](#1-broken-chain) [IIT-BHU'22]
+* [Reportee Count](#2-reportee-count) [IIT-BHU'22]
+* [Connected Flights](#3-connected-flights) [IIT-BHU'22]
 
 ## 1. Broken Chain
 
