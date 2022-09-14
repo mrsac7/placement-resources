@@ -79,7 +79,7 @@ Relationships between people may be represented in a matrix as a series of binar
 
 Consider the following relationships matrix:
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/VMware/mat1.png" width="250">
 
 Persons $0$ and $1$ are connected, while person $2$ is not. There are $2$ groups.
 
@@ -137,7 +137,7 @@ $\textbf{Explanation}$
 
 Squares highlighting a connection between two people are highlighted in green. Each of the people is known to self, so they are highlighted in gray.
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/VMware/mat.png" width="250">
 
 There are $n = 4$ people numbered $related[0]$ through $related[3]$.
 
