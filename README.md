@@ -22,3 +22,4 @@
 - [Lambdatest](https://github.com/mrsac7/placement-resources/tree/main/Lambdatest)
 - [MindTickle](https://github.com/mrsac7/placement-resources/tree/main/MindTickle)
 - [VMware](https://github.com/mrsac7/placement-resources/tree/main/VMware)
+- [Thoughtspot](https://github.com/mrsac7/placement-resources/tree/main/Thoughtspot)
