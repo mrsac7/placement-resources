@@ -109,6 +109,8 @@ $1 \leq K \leq N \leq 10^5$
 
 $G_i \leq 10^4$
 
+### Example
+
 <table>
 <tr>
 <td> Sample Input </td>
@@ -116,8 +118,6 @@ $G_i \leq 10^4$
 </tr>
 <tr>
 <td>
-
-### Example
 
 ```shell
 2                                 
