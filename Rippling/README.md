@@ -32,8 +32,8 @@ You are given the cost per unit area of each plot.
 $Assumptions$
 
 * $N = 2$
-* $array \ plots = [10, 20]$
-* $array \ cost_arr = [1, 1]$
+* $array \ \ plots = [10, 20]$
+* $array \ \ cost\\_arr = [1, 1]$
 
 $Approach$
 
@@ -49,7 +49,7 @@ Complete the `solution` function. This function takes the following $3$ paramete
 
 * $N$: Represents the number of plots
 * $plots$: Represents the array of length $N$ denoting the areas of each plot
-* $costs_arr$: Represents the array of length $N$ denoting the cost per unit area of each plot
+* $costs\\_arr$: Represents the array of length $N$ denoting the cost per unit area of each plot
 
 ### Input
 
