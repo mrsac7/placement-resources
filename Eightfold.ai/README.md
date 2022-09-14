@@ -3,9 +3,9 @@
 
 ## Questions Index
 
-* [Stone Cold Mafia](#1-stone-cold-mafia) [IIT-BHU'21]
-* [Connecting The Special Nodes](#2-connecting-the-special-nodes) [IIT-BHU'21]
-* [Shopping With Wife](#3-shopping-with-wife) [IIT-BHU'21]
+* [Stone Cold Mafia](#1-stone-cold-mafia) [IIT-BHU'22]
+* [Connecting The Special Nodes](#2-connecting-the-special-nodes) [IIT-BHU'22]
+* [Shopping With Wife](#3-shopping-with-wife) [IIT-BHU'22]
 
 ## 1. Stone Cold Mafia
 
