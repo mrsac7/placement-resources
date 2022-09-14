@@ -20,7 +20,7 @@ Find the number of such possible arragements $\textbf{mod} \ 10^9 + 7$.
 * First line of input: Conains $T$, where $T$ is number of test cases.
 * For every test case: The first line contains $N$, $K$, and $X$, where $N$ is the size of tray, $K$ is the type of trophies available, and $X$ is the special trophy that is allowed to place against.
 
-$\textbf{Note}$ $X$ can be greater than $K$.
+$\textbf{Note}$: $X$ can be greater than $K$.
 
 ### Output Format
 
