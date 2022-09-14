@@ -64,7 +64,7 @@ cat
 </tr>
 </table>
 
-### Explanation
+$\textbf{Explanation}$
 
 For typing $c$, it takes $3$ strokes on the $'2'$ button, for typing $a$, it takes $1$ stroke on the $'2'$ button. As the $'2'$ button is pressed consecutively for typing $c$ and $a$, there will be $1$ second gap in between. For typing $t$, it takes $1$ stroke on the $'8'$ button.
 
@@ -151,7 +151,7 @@ Print the number of unique groups of $k$ students who have the same age. As the 
 </tr>
 </table>
 
-### Explanation
+$\textbf{Explanation}$
 
 Here, the age of the student $A = 1$
 
@@ -250,7 +250,7 @@ Print the number if it is a palindrome and "NOT PALINDROME" if it is not.
 </tr>
 </table>
 
-### Explanation
+$\textbf{Explanation}$
 
 The input forms the following tree:
 
