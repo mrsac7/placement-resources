@@ -75,7 +75,7 @@ For every test case, print the number of cookies that can be eaten by Alice, fol
 * $1 \leq K \leq 10^9$
 * $1 \leq H_i, \ E_i \leq 10^5$
 
-### Example
+### Sample Test
 
 <table>
 <tr>
@@ -131,7 +131,7 @@ Print the maximum distance the robot can go from initial point $0$ in a new line
 * $1 \leq N \leq 10^5$
 * $0 \leq D_i \leq 10^6$
 
-### Example
+### Sample Test
 
 <table>
 <tr>
