@@ -5,7 +5,7 @@
 
 * [Activate Fountain](#1-activate-fountain) [IIT-BHU'22]
 * [Perfect Substring](#2-perfect-substring) [IIT-BHU'22]
-* [Balanced Tree](#2-balanced-tree) [IIT-BHU'22]
+* [Balanced Tree](#3-balanced-tree) [IIT-BHU'22]
 
 ## 1. Activate Fountain
 
@@ -23,8 +23,7 @@ For position $2$: $locations[2] = 2$, $max(2 - 2, \ 1)$ to $min(2 + 2, \ 3)$ giv
 
 For position $1$: $locations[3] = 1$, $max(3 - 1, \ 1)$ to $min(3 + 1, \ 3)$ gives range = $2$ to $3$
 
-
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Swiggy/ftn.png" width="500">
 
 For the entire length of this garden to be covered, only the fountain at position $2$ needs to be activated.
 
@@ -103,7 +102,7 @@ The goal is to modify this tree such that it becomes a $\textbf{balancedTree}$.
 
 Consider the following tree
 
-<img src = "#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Swiggy/tr.png" width="500">
 
 The optimal way to balance the above tree is to add $2$ stones to node $'3'$, $1$ stones to node $'2'$, and $4$ stones to node $'1'$. After doing so, we will get a $\textbf{balancedTree}$, and the minimum number of stones required to do it $2 + 1 + 4 = 7$.
 
