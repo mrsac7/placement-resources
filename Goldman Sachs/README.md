@@ -24,7 +24,7 @@ Single line of input consists of two integers $L$ and $W$ which are the length a
 Single line of output has the number of sub-rectangles that can be created within the rectangle
 
 
-### Examples
+### Sample Tests
 
 <table>
 <tr>
@@ -117,7 +117,7 @@ Single line of output contains the word on the envelope.
 * $1 \leq X \leq 10^9$
 * $X$ will always be less than or equal to the total number of words that are possible.
 
-### Examples
+### Sample Tests
 
 <table>
 <tr>
