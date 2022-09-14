@@ -131,4 +131,4 @@ Complete the function `distinctMoves`. The function must returm an integer that 
 ### Constraints
 
 * $1 \leq |s| \leq 10^3$
-* $0 \leq x, y \leq n \leq 2500$
+* $0 \leq x, \ y \leq n \leq 2500$
