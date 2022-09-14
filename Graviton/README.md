@@ -38,6 +38,8 @@ $1 \leq M \leq 3 * 10^5$
 
 $|c_{ij}| \leq 10^9$
 
+### Example
+
 <table width="600px">
 <tr>
 <td> Sample Input </td>
@@ -114,6 +116,8 @@ $G_i \leq 10^4$
 </tr>
 <tr>
 <td>
+
+### Example
 
 ```shell
 2                                 
