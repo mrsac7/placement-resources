@@ -273,7 +273,7 @@ Though there are other ways also possible to make this condition true but $4$ wi
 
 ### 4. Math Game
 
-MindTickle is organising a game for its employees and in this game each individual is given $n$ number $b_1, \ b_2,... \ , b_n$. Where they can perform at most $m$ operations. In each operation a person can multiply one of the numbers by $p$. Where the individuals have to make $b_1 \ | \ b_2 \ | ... \ | \ b_n$ as large as possible, where $|$ denotes the bitwise $OR$. Amit, an employee at MindTickle, is not good at problem-solving, so he needs your help to find the maximum possible value of $b_1 \ | \ b_2 \ | ... \ | \ b_n$ after performing at most $m$ operations optimally.
+MindTickle is organising a game for its employees and in this game each individual is given $n$ number $b_1, \ b_2,..., \ b_n$. Where they can perform at most $m$ operations. In each operation a person can multiply one of the numbers by $p$. Where the individuals have to make $b_1 \ | \ b_2 \ | \ ... \ | \ b_n$ as large as possible, where $|$ denotes the bitwise $OR$. Amit, an employee at MindTickle, is not good at problem-solving, so he needs your help to find the maximum possible value of $b_1 \ | \ b_2 \ | \ ... \ | \ b_n$ after performing at most $m$ operations optimally.
 
 ### Constraints
 
@@ -285,7 +285,7 @@ MindTickle is organising a game for its employees and in this game each individu
 ### Input Format
 
 * The first line contains three integers $n$, $m$, and $p$ 
-* The second line contains $n$ integers $b_1, \ b_2,... \ , b_n$
+* The second line contains $n$ integers $b_1, \ b_2,..., \ b_n$
 
 ### Sample Test
 
