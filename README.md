@@ -28,3 +28,4 @@
 - [ThoughtSpot](https://github.com/mrsac7/placement-resources/tree/main/ThoughtSpot)
 - [Dream 11](https://github.com/mrsac7/placement-resources/tree/main/Dream%2011)
 - [Zeta](https://github.com/mrsac7/placement-resources/tree/main/Zeta)
+- [Observe.ai](https://github.com/mrsac7/placement-resources/tree/main/Observe.ai)
