@@ -229,7 +229,7 @@ The quantity $25$ is in the database, so $vmPricing$ returns the unit price asso
 </tr>
 </table>
 
-$\textbf{Explanation}$
+$\textbf{Explanation 2}$
 
 The following arguments are passed to the interpolate function:
 
