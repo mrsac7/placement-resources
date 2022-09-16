@@ -8,6 +8,7 @@
 - [Uber](https://github.com/mrsac7/placement-resources/tree/main/Uber)
 - [Graviton](https://github.com/mrsac7/placement-resources/tree/main/Graviton)
 - [DE Shaw](https://github.com/mrsac7/placement-resources/tree/main/DE%20Shaw)
+- [Adobe](https://github.com/mrsac7/placement-resources/tree/main/Adobe)
 - [CodeNation](https://github.com/mrsac7/placement-resources/tree/main/CodeNation)
 - [Atlassian](https://github.com/mrsac7/placement-resources/tree/main/Atlassian)
 - [Slice](https://github.com/mrsac7/placement-resources/tree/main/Slice)
