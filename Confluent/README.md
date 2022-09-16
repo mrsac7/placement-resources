@@ -3,7 +3,7 @@
 
 ## Questions Index
 
-* [HackTree](#1-hack-tree) [IIT-BHU'22]
+* [Hack Tree](#1-hack-tree) [IIT-BHU'22]
 * [VM Pricing](#2-vm-pricing) [IIT-BHU'22]
 
 ## 1. Hack Tree
