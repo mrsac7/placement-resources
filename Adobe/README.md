@@ -147,7 +147,7 @@ In the aftermath of a massive pandemic the government of Arcania has decided to 
 
 The medical supplies manufacturers and wholesalers in Arcania can be decpicted as a collected of $N$ nodes indexed from $0, \ 1, \ 2, \ ..., \ N - 1$. These nodes together form a $\textbf{Tree}$. This tree is rooted at node $0$ which denotes the national drug agency headquarters. Each node has a value depicting their minimum standing inventory written on it. This means that the value of minimum standing inventory for node $i$ is $Val[i]$.
 
-After extensive research the government has devised a threshold parameter $X$. The government plans to use the threshold parameter $X$ to identify **special nodes**. These **special nodes** will serve as a stockpile and supply station of medical supplies in the event of a pandemic. Any node in the tree qualifies to be a **special node** if <ins> $XOR$ of values </ins> of all the nodes in the subtree of this node is <ins> less than or equal to </ins> $X$.
+After extensive research the government has devised a threshold parameter $X$. The government plans to use the threshold parameter $X$ to identify **special nodes**. These **special nodes** will serve as a stockpile and supply station of medical supplies in the event of a pandemic. Any node in the tree qualifies to be a **special node** if <ins>XOR of values</ins> of all the nodes in the subtree of this node is <ins>less than or equal to</ins> $X$.
 
 It is further given that a **subtree** of a node $X$ in the tree $T$ consists of node $X$ and all of its descendants in $T$.
 
@@ -191,7 +191,7 @@ $\textbf{Returns}$
 <td>
 
 ```shell
-5                        
+5                       
 -1 0 0 1 1
 7 2 2 3 5
 3
