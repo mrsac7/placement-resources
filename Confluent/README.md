@@ -138,7 +138,7 @@ The method for determining price is as follows:
 
 For example, assume the price breaks occur for $instances = [25, \ 50, \ 100]$ units at $price = [5.0, \ 4.0, \ 3.0]$. A diagram follows with pricing for $75$ and $150$ units. In the graph, price versus quantity for given values are in blue. The target numbers of instances and the linear extrapolation are plotted in red.
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Confluent/gph.png" width="600">
 
 ### Function Description
 
@@ -239,6 +239,6 @@ $instances = {10, \ 25, \ 50, \ 100, \ 500}$
 
 $price = {27.32, \ 23.13, \ 21.25, \ 18.00, \ 15.50}$
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Confluent/ex.png" width="600">
 
 The quantity $2000$ is not in the database, and is also larger than any amount in the database. The closest two price points to it are $15.5$ for $500$ instances and $18.00$ for $100$ instances. Linear extrapolation from these two points means reducing the price by $2.5$ for every increase in the amount of $400$. There are $3.75$ jumps of $400$ from $500$ to $2000$, or $4.75$ jumps of $400$ from $100$ to $2000$. The unit price for $2000$ is therefore $15.5 - 2.5 \times 3.75$ or $18 - 2.5 \times 4.75$. Both expressions evaluate to $6.125$. The function should round this to a scale of $2$ decimal places and return th rounded result, $6.13$, as a string.
