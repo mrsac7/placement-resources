@@ -10,6 +10,7 @@
 - [DE Shaw](https://github.com/mrsac7/placement-resources/tree/main/DE%20Shaw)
 - [Adobe](https://github.com/mrsac7/placement-resources/tree/main/Adobe)
 - [CodeNation](https://github.com/mrsac7/placement-resources/tree/main/CodeNation)
+- [Confluent](https://github.com/mrsac7/placement-resources/tree/main/Confluent)
 - [Atlassian](https://github.com/mrsac7/placement-resources/tree/main/Atlassian)
 - [Slice](https://github.com/mrsac7/placement-resources/tree/main/Slice)
 - [American Express](https://github.com/mrsac7/placement-resources/tree/main/American%20Express)
