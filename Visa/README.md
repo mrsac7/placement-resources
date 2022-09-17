@@ -97,7 +97,7 @@ It is not updated when their values are $1$ because $1$ is less than the current
 
 ## 2. Protfolio Balances
 
-An investor opens a new account and wants to invest in a number of assets. Each asset begins with a balance of $0$, and its value is stored in an array using $1-based indexing. Periodically, a constribution is received and equal investments are made in a subset of the portfolio. Each contribution will be given by $investment \ amount$, $start \ index$, $end \ index$. Each investment in that range will receive the contribution amount. Determine the maximum amount invested in any one investment after all contributions.
+An investor opens a new account and wants to invest in a number of assets. Each asset begins with a balance of $0$, and its value is stored in an array using $1$-based indexing. Periodically, a constribution is received and equal investments are made in a subset of the portfolio. Each contribution will be given by $investment \ amount$, $start \ index$, $end \ index$. Each investment in that range will receive the contribution amount. Determine the maximum amount invested in any one investment after all contributions.
 
 For example, start with an array of $5$ elements: $investments = [0, \ 0, \ 0, \ 0, 0]$. The variables $left$ and $right$ represent the starting and ending indices, inclusive. Another variable, $contribution$, is the new funds to invest per asset. The first investment is at index $1$.
 
@@ -198,9 +198,9 @@ The travaler wants to know whether any paths exists from cities $1$ to $3$, $4$ 
 
 Let the return array be $paths$, then:
 
-* $paths[0] = 0 because no path exists from city $1$ to city $4$.
-* $paths[1] = 0 because no path exists from city $2$ to city $5$.
-* $paths[2] = 1 because a path exists from city $3$ to city $6$.
+* $paths[0] = 0$ because no path exists from city $1$ to city $4$.
+* $paths[1] = 0$ because no path exists from city $2$ to city $5$.
+* $paths[2] = 1$ because a path exists from city $3$ to city $6$.
 
 Therefore, the true/false array of her results would be $paths = [0, \ 0, \ 1]$.
 
@@ -221,7 +221,7 @@ Complete the function `connectedCities`.
 
 * $2 \leq numCities \leq 2 \times 10^5$
 * $0 \leq threshold, \ q \leq numCities$
-* $1 \leq originCities[i], \ destinationCities[i] \leq numCities$, where $0 \leq i \lt q$
+* $1 \leq originCities[i]$, $destinationCities[i]$ $\leq numCities$, where $0 \leq i \lt q$
 * $origincities[i] \neq destinationCities[i]$, where $0 \leq i \lt q$
 
 
