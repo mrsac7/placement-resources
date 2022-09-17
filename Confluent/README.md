@@ -1,5 +1,5 @@
 # Confluent
-> Collection of coding questions asked by Confluent during placements at IITs
+> Collection of coding questions appearing in online assessment of Confluent during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
