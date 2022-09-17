@@ -5,7 +5,7 @@
 
 * [Equal Levels](#1-equal-levels) [IIT-BHU'22]
 * [Portfolio Balances](#2-portfolio-balances) [IIT-BHU'22]
-* [Travelling is Fun](#3-travelling-is-fun) [IIT-BHU'22, IIT-M'22, IIT-D'22, IIT-P'22]
+* [Travelling is Fun](#3-travelling-is-fun) [IIT-BHU'22]
 
 ## 1. Equal Levels
 
