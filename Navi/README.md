@@ -5,7 +5,7 @@
 
 * [Rail Fence Cipher](#1-rail-fence-cipher) [IIT-BHU'22]
 * [Leaky Bucket](#2-leaky-bucket) [IIT-BHU'22]
-* [Minimum Steps!](#3-minimum-steps!) [IIT-BHU'22]
+* [Minimum Steps!](#3-minimum-steps) [IIT-BHU'22]
 
 
 ## 1. Rail Fence Cipher
@@ -92,7 +92,7 @@ Suppose for the above test case if $120$ is taken as input to the bucket, there 
 
 ---
 
-## 3. Rail Fence Cipher
+## 3. Minimum Steps!
 
 ### Problem Description
 
