@@ -1,5 +1,5 @@
 # Dream 11
-> Collection of coding questions asked by Dream 11 during placements at IITs
+> Collection of coding questions appearing in online assessment of Dream 11 during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
