@@ -23,7 +23,7 @@ The running times of both signals are given, denoted by $n$ and $m$ respectively
 $signalOne = [1, \ 2, \ 3, \ 3, \ 3, \ 5, \ 4]$ <br>
 $signalTwo = [1, \ 2, \ 3, \ 4, \ 3, \ 5, \ 4]$
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Visa/ex1.png" width="500">
 
 Each of the first three signals match and are increasing, so $maxequal$ is updated $3$ times to $1$, $2$ and then $3$.
 
@@ -87,7 +87,7 @@ $\textbf{Returns}$
 
 $\textbf{Explanation}$
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Visa/ex.png" width="500">
 
 The frequencies are equal during three periods, with frequencies $3$, $4$ and $1$. <br>
 The maximum frequency is updated twice at $3$, and $4$, since $4$ is greater than $3$. <br>
@@ -192,7 +192,7 @@ To draw the map, first determine the divisors of all cities:
 * The greatest common divisor of the cities $3$ and $6$ is $3$ which is less than the threshold $2$. So, the rout between $3$ and $6$ is connected.
 
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Visa/exp.png" width="500">
 
 The travaler wants to know whether any paths exists from cities $1$ to $3$, $4$ to $6$, $3$ to $2$ and from $6$ to $5$.
 
