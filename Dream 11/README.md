@@ -125,7 +125,7 @@ $\textbf{Returns}$
 ### Constraints
 
 * $1 \leq n, \ talentsCount \leq 10^5$
-* $1 \leq talent[i] \leq talentsCount
+* $1 \leq talent[i] \leq talentsCount$
 
 ### Sample Test
 
