@@ -73,7 +73,7 @@ Step 3: 0/1, 1/3, 1/2 and so on
 
 The add operator is defined as follows:
 
-If (a/b) and (c/d) is added, then the sum is (a+c) / (b+d) which means that their numerator and denominators both are added to each other.
+If (a/b) and (c/d) is added, then the sum is (a+c)/(b+d) which means that their numerator and denominators both are added to each other.
 
 You have to find the $k^{th}$ fraction in the $n^{th}$ step.
 
