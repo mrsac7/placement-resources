@@ -1,5 +1,5 @@
 # AiDash
-> Collection of coding questions asked by AiDash during placements at IITs
+> Collection of coding questions appearing in online assessment of AiDash during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
