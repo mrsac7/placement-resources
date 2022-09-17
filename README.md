@@ -31,3 +31,4 @@
 - [Observe.ai](https://github.com/mrsac7/placement-resources/tree/main/Observe.ai)
 - [AiDash](https://github.com/mrsac7/placement-resources/tree/main/AiDash)
 - [Zomato](https://github.com/mrsac7/placement-resources/tree/main/Zomato)
+- [Visa](https://github.com/mrsac7/placement-resources/tree/main/Visa)
