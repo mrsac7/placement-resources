@@ -1,5 +1,5 @@
-# ION Group
-> Collection of coding questions appearing in online assessment of ION Group during campus placements at IIT/NITs, and other top engineering colleges in India.
+# Navi
+> Collection of coding questions appearing in online assessment of Navi during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
