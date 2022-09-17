@@ -1,5 +1,5 @@
 # Zeta
-> Collection of coding questions asked by Zeta during placements at IITs
+> Collection of coding questions appearing in online assessment of Zeta during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
