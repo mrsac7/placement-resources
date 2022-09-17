@@ -1,5 +1,5 @@
 # Google
-> Collection of coding questions appearing in online assessment of Microsoft during campus placements at IIT/NITs, and other top engineering colleges in India.
+> Collection of coding questions appearing in online assessment of Google during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
