@@ -1,5 +1,5 @@
 # Ola Cabs
-> Collection of coding questions asked by Ola Cabs during placements at IITs
+> Collection of coding questions appearing in online assessment of Ola Cabs during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
