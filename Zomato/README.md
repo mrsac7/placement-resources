@@ -43,7 +43,7 @@ For each test case, print a single line containing one integer $M$ where Harry s
 
 Print $-1$ in case of no length $(l)$ is possible.
 
-### Examples
+### Example:
 
 ```
 Input:
@@ -95,7 +95,7 @@ X/Y
 
 Print the answer in the format (int)/(int), like 3/5.
 
-### Example
+### Example:
 
 ```
 Input:
