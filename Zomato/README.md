@@ -126,7 +126,7 @@ Given a square matrix of size $N \times M$. Find the **minimum** number of opera
 Input:
 N = 2
 matrix[][] = {{1, 2},
-              {3, 4}
+              {3, 4}}
               
 Output = 4
 Explanation:
