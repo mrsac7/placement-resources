@@ -1,5 +1,5 @@
 # Eightfold.ai
-> Collection of coding questions asked by Eightfold.ai during placements at IITs
+> Collection of coding questions appearing in online assessment of Eightfold.ai during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
