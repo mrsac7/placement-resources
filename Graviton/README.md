@@ -1,5 +1,5 @@
 # Graviton
-> Collection of coding questions asked by Graviton during placements at IITs
+> Collection of coding questions appearing in online assessment of Graviton during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
