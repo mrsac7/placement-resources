@@ -1,5 +1,5 @@
 # DE Shaw
-> Collection of coding questions asked by DE Shaw during placements at IITs
+> Collection of coding questions appearing in online assessment of DE Shaw during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Questions Index
 
