@@ -69,15 +69,15 @@ $\textbf{Explanation}$
 
 $n = 1$: Only one tree can be created with one node.
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Dream%2011/tr1.png" width="50">
 
 $n = 2$: Two trees can be created with two nodes.
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Dream%2011/tr2.png" width="200">
 
 $n = 3$: Five trees can be created with three nodes.
 
-<img src="#">
+<img src="https://github.com/mrsac7/placement-resources/blob/main/Dream%2011/tr3.png" width="500">
 
 ---
 
