@@ -34,4 +34,4 @@
 - [Visa](https://github.com/mrsac7/placement-resources/tree/main/Visa)
 - [Navi](https://github.com/mrsac7/placement-resources/tree/main/Navi)
 - [ION Group](https://github.com/mrsac7/placement-resources/tree/main/ION%20Group)
-- [cult.fit](https://github.com/mrsac7/placement-resources/tree/main/cult.fit)
+- [Cult.fit](https://github.com/mrsac7/placement-resources/tree/main/Cult.fit)
