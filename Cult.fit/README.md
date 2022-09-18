@@ -252,7 +252,7 @@ Complete the function `solve`. This function takes the following $3$ parameters 
 * First line denotes the number of test cases $T$, followed by the test cases themselves.
 * First line of each test case contains an integer $N$ denoting the number of nodes in the tree.
 * Next line contains $N$ integers $val_1, \ val_2, \ ..., val_N$ where $val_i$ denotes the value of the $i^{th}$ node.
-* Next line contains $N - 1$ intgers $parent_2, \ parent_3, \ ..., \ parent_N$ where $i^{th}$ value denotes the parent of the $(i + 1)^{th}$ node.
+* Next line contains $N - 1$ intgers $parent_1, \ parent_2, \ ..., \ parent_{N-1}$ where $parent_i$ value denotes the parent of the $(i + 1)^{th}$ node.
 
 ### Output Format
 
@@ -263,7 +263,7 @@ For each test case, print $N$ space-separated integers in a new line, where $i^{
 * $1 \leq T \leq 10^2$
 * $1 \leq N \leq 10^4$
 * $1 \leq val[i] \leq 10^9$
-* $1 \leq parent[i] \leq N
+* $1 \leq parent[i] \leq N$
 
 ### Sample Test
 
