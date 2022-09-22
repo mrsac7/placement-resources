@@ -10,7 +10,7 @@
 
 You are given a tree with $n$ nodes. Each node has a value has a value assigned with it. The cost of a path is defined as the summation of all the values assigned to nodes that belong to the path.
 
-The root of the tre is node number $1$.
+The root of the tree is node number $1$.
 
 **Cost of path example**
 
