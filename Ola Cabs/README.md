@@ -98,6 +98,33 @@ dog
 
 ---
 
+### Solution 
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  #include<bits/stdc++.h>
+  using namespace std;
+  
+  int main() {
+    vector<int> A = {2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 9, 9, 9, 9};
+    vector<int> B = {1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 1, 2, 3, 4};
+    int N; string S;
+    cin >> N >> S;
+    if (N == 0) return cout << 0, 0;
+    int ans = B[S[0] - 'a'];
+    for (int i = 1; i < N; i++) {
+      ans += B[S[i] - 'a'];
+      if (A[S[i - 1] - 'a'] == A[s[i] - 'a']) ans++;
+    }
+    cout << ans;
+  }
+  ```
+  
+</details>
+
+
 ## 2. Age Grouping
 
 ### Problem Statement
