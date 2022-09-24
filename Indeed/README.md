@@ -32,6 +32,29 @@ $\textbf{Returns}$:
 * $1 \leq n \leq 10^5$
 * $1 \leq arr[i] \leq 10^9$
 
+### Solution 
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  int minDeletions(vector<int> arr) {
+    int N = arr.size();
+    vector<int> v = {0};
+    for (int i = 0, x; i < N; i++) {
+      x = arr[i];
+      int j = lower_bound(v.begin(), v.end(), x) - v.begin();
+      if (j == v.size()) v.push_back(x);
+      else v[j] = x;
+    }
+    int ans = v.size() - 1;
+    int K = N - (ans + (ans != N));
+    return K;
+  }
+  ```
+  
+</details>
+
 ---
 
 ### 2. Shared Interest
