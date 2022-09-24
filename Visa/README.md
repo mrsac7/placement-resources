@@ -93,6 +93,24 @@ The frequencies are equal during three periods, with frequencies $3$, $4$ and $1
 The maximum frequency is updated twice at $3$, and $4$, since $4$ is greater than $3$. <br>
 It is not updated when their values are $1$ because $1$ is less than the current $maxequal = 4$.
 
+### Solution 
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  int updateTimes(vector<int> singalOne, vector<int> signalTwo) {
+    int ans = 0, mx = -1, N = singalOne.size();
+    for (int i = 0; i < N; i++) {
+      int x = signalOne[i], y = singalTwo[i];
+      if (x == y && x > mx) ans++, mx = x;
+    }
+    return ans;
+  }
+  ```
+  
+</details>
+
 ---
 
 ## 2. Protfolio Balances
@@ -169,6 +187,31 @@ Perform the following sequence of $o = 3$ rounds of investments on $investments 
 3. Add $contribution = 100$ to every asset in the inclusive range $[3, \ 4]$, resulting in $investments = [100, \ 200, \ 200, \ 200, \ 100]$.
 
 Return the maximum value in the final list, $200$, as the answer.
+
+### Solution 
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  long maxValue(int n, vector<vector<int>> rounds) {
+    int N = rounds.size(), mxN = 1e7 + 7;
+    vector<long> v(mxN);
+    for (int i = 0; i < N; i++) {
+      int x = rounds[i][0], y = rounds[i][1], z = rounds[i][2];
+      v[x] += z;
+      v[y + 1] -= z;
+    }
+    long mx = 0;
+    for (int i = 1; i < mxN; i++) {
+      v[i] += v[i - 1];
+      mx = max(mx, v[i]);
+    }
+    return mx;
+  }
+  ```
+  
+</details>
 
 ---
 
