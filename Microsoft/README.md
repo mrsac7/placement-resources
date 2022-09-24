@@ -37,6 +37,57 @@ Write an **efficient** algorithm for the following assumptions:
 * each element of arrays $A$ and $B$ is an integer within the range $[1..S]$;
 * no patient has two preferrences for the same slot, i.e. $A[i] \neq B[i]$.
 
+### Solution
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  #include<bits/stdc++.h>
+  
+  const int mxN = 1e5 + 5;
+  set<int> v[mxN];
+  int slot[mxN];
+  
+  bool solution(vector<int> &A, vector<int> &B, int S) {
+    int n = A.size();
+    for (int i = 0; i < n; i++) {
+      A[i]--, B[i]--;
+      int x = A[i], y = B[i];
+      v[x].insert(i);
+      v[y].insert(i);
+    }
+    set<pair<int, int>> st;
+    for (int i = 0; i < S; i++) {
+      if (v[i].size() == 0) continue;
+      st.insert({v[i].size(), i});
+    }
+    int ans = 0;
+    while (!st.empty()) {
+      int sz = st.begin()->first, i = st.begin()->second;
+      st.erase(st.begin());
+      if (sz == 0) continue;
+      if (sz > 1) break;
+      int j = *v[i].begin();
+      ans++;
+      int x = A[j], y = B[j];
+      if (y == i) swap(x, y);
+      v[x].erase(j);
+      st.erase({v[y].size(), y});
+      v[y].erase(j);
+      st.insert({v[y].size(), y});
+    }
+    for (int i = 0; i < S; i++) {
+      if (v[i].size() > 1) {
+        ans++;
+      }
+    }
+    return (ans == n);
+  }
+  ```
+  
+</details>
+
 ---
 ## 2. Robot
 
