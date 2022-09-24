@@ -3,11 +3,11 @@
 
 ## Questions Index
 
-* [Base Conversion](#1-base-conversion) [IIT-BHU'22]
-* [XOR Queries](#2-xor-queries) [IIT-BHU'22]
-* [Zasho Grants Wishes](#3-zasho-grants-wishes) [IIT-BHU'22]
+* [Base 2 To Base 6](#1-base-2-to-base-6) [IIT-BHU'22]
+* [Dumb Amaru](#2-dumb-amaru) [IIT-BHU'22]
+* [Genie](#3-genie) [IIT-BHU'22]
 
-## 1. Base Conversion
+## 1. Base 2 To Base 6
 
 Given a number in base $2$, convert it into base $6$.
 
@@ -28,8 +28,35 @@ For e.g.
   
   ith position of the array represents the ith position of the number is in base $6$.
   
+### Solution
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  vector<int> base2To6Hire2020(vector<bool> base2) {
+    vector<int> R = {0};
+    int N = base2.size(), A = 2, B = 6;
+    reverse(base2.begin(), base2.end());
+    
+    for (int i = 0; i < N; i++) {
+      int x = base2[i];
+      for (int j = 0; j < R.size(); j++) {
+        int z = R[j] * A + x;
+        R[j] = z % b;
+        x = z / b;
+        if (j == R.size() - 1 && x > 0) 
+          R.push_back(0);
+      }
+    } 
+    return R;
+  }
+  ```
+  
+</details>
+  
 ---
-## 2. XOR Queries
+## 2. Dumb Amaru
 
 Amaru and Kapkan were playing Rainbow $6$ Siege in which Kapkan strategically placed $N$ bombs all over the map.
 
@@ -48,9 +75,42 @@ Amaru is a dumb player who only rushes in, so can you help her in winning by fin
   * **[input] array.integer l**
   * **[input] array.integer r**
   * **[output] array.integer**
+  
+### Solution
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  vector<int> FY22CampusDumbAmaru(int n, vector<int> x, vector<int> l, vector<int> r) {
+    vector<int> R;
+    for (int i = 0; i < n; i++) {
+      int X = x[i], L = l[i], R = r[i];
+      int ans = 0, val = 0;
+      for (int j = 30; j >= 0; j--) {
+        if (X >> j & 1) {
+          if (val >= L) ans |= (1 << j);
+          else if (val >> L & 1) val += (1 << j);
+          else ans |= (1 << j);
+        }
+        else {
+          int val0 = val + (1 << j);
+          if (val0 <= R) {
+            val = val0;
+            ans |= (1 << j);
+          }
+        }
+      }
+      R.push_back(ans);
+    }
+    return R;
+  }
+  ```
+  
+</details>
 
 ---
-## 3. Zasho Grants Wishes
+## 3. Genie
 
 Zasho is a popular genie. Being a genie, he's in the business of granting wishes, and a lot of people ask him for help. However, his power is limited - currently it is $p$ units.
 
