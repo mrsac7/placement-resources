@@ -68,6 +68,19 @@ $\textbf{Returns}$
 </tr>
 </table>
 
+### Solution
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  int jumps(int flagHeight, int bigJump) {
+    return flagHeight / bigJump + flagHeight % bigJump;
+  }
+  ```
+  
+</details>
+
 ---
 
 ## 2. Whole Minute Dilemma
@@ -129,6 +142,26 @@ $\textbf{Explanation}$
 
 The first and second songs pair to $60$ seconds. The third and fourth songs pair to $120$ seconds. No other pairs will satisfy the requirement.
 
+### Solution
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  long playlist(vector<int> songs) {
+    int N = songs.size(), M = 60;
+    vector<int> A(65);
+    long ans = 0;
+    for (int i = 0; i < N; i++) {
+      int x = (M - songs[i] % M) % M;
+      ans += A[x];
+      A[songs[i] % M]++;
+    }
+    return ans;
+  }
+  ```
+  
+</details>
 
 ---
 
@@ -187,6 +220,24 @@ Inputs are $s = [1, \ 4, \ 3]$. Increasing subsequences are $[1, \ 4]$ and $[1, 
 
 The longest increasing sub-sequence has $2$ elements.
 
+### Solution
 
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+  int findLIS(vector<int> S) {
+    int N = S.size();
+    vector<int> v = {0};
+    for (auto x: S) {
+      int j = lower_bound(v.begin(), v.end(), x) - v.begin();
+      if (j == v.size()) v.push_back(x);
+      else v[j] = x;
+    }
+    return (int) v.size() - 1;
+  }
+  ```
+  
+</details>
 
 
