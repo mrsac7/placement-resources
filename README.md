@@ -1,5 +1,5 @@
-# Placement Coding Questions
-> Collection of coding questions appearing in online assessment of top software companies during campus placements at IIT/NITs, and other top engineering colleges in India.
+# Placement Coding Questions and Solutions
+> Collection of coding questions (with solutions) appearing in online assessment of top software companies during campus placements at IIT/NITs, and other top engineering colleges in India.
 
 ## Companies
 
