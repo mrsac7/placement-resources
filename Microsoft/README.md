@@ -43,42 +43,41 @@ Write an **efficient** algorithm for the following assumptions:
   <summary>Show</summary>
   
   ```cpp
-  #include<bits/stdc++.h>
-  
-  const int mxN = 1e5 + 5;
-  set<int> v[mxN];
-  int slot[mxN];
-  
   bool solution(vector<int> &A, vector<int> &B, int S) {
-    int n = A.size();
-    for (int i = 0; i < n; i++) {
-      A[i]--, B[i]--;
-      int x = A[i], y = B[i];
-      v[x].insert(i);
-      v[y].insert(i);
+    int N = A.size();
+    set<int> G[N + 1];
+  
+    for (int i = 1; i <= N; i++) {
+      G[A[i]].insert(i);
+      G[B[i]].insert(i);
     }
-    set<pair<int, int>> st;
-    for (int i = 0; i < S; i++) {
-      if (v[i].size() == 0) continue;
-      st.insert({v[i].size(), i});
+                          
+    set<pair<int, int>> deg;
+  
+    for (int i = 1; i <= S; i++) {   
+      if (G[i].size() == 0) continue;
+      deg.insert({G[i].size(), i});
     }
+                          
     int ans = 0;
-    while (!st.empty()) {
-      int sz = st.begin()->first, i = st.begin()->second;
-      st.erase(st.begin());
+                          
+    while (!deg.empty()) {
+      auto [sz, s] = *deg.begin();
+      deg.erase(deg.begin());
       if (sz == 0) continue;
       if (sz > 1) break;
-      int j = *v[i].begin();
+      int pat = *G[i].begin();
       ans++;
-      int x = A[j], y = B[j];
-      if (y == i) swap(x, y);
-      v[x].erase(j);
-      st.erase({v[y].size(), y});
-      v[y].erase(j);
-      st.insert({v[y].size(), y});
+      int s1 = A[pat], s2 = B[pat];
+      if (s == s2) swap(s1, s2);
+      G[s1].erase(pat);
+      deg.erase({G[s2].size(), s2});
+      G[s2].erase(pat);
+      deg.insert({G[s2].size(), s2});
     }
-    for (int i = 0; i < S; i++) {
-      if (v[i].size() > 1) {
+  
+    for (int i = 1; i <= S; i++) {
+      if (G[i].size() > 1) {
         ans++;
       }
     }
