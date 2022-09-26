@@ -83,7 +83,7 @@ Amaru is a dumb player who only rushes in, so can you help her in winning by fin
   
   ```cpp
   vector<int> FY22CampusDumbAmaru(int n, vector<int> x, vector<int> l, vector<int> r) {
-    vector<int> R;
+    vector<int> res;
     for (int i = 0; i < n; i++) {
       int X = x[i], L = l[i], R = r[i];
       int ans = 0, val = 0;
@@ -101,9 +101,9 @@ Amaru is a dumb player who only rushes in, so can you help her in winning by fin
           }
         }
       }
-      R.push_back(ans);
+      res.push_back(ans);
     }
-    return R;
+    return res;
   }
   ```
   
