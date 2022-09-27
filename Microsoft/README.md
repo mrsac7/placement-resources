@@ -66,7 +66,7 @@ Write an **efficient** algorithm for the following assumptions:
       deg.erase(deg.begin());
       if (sz == 0) continue;
       if (sz > 1) break;
-      int pat = *G[i].begin();
+      int pat = *G[s].begin();
       ans++;
       int s1 = A[pat], s2 = B[pat];
       if (s == s2) swap(s1, s2);
