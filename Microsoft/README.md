@@ -41,48 +41,39 @@ Write an **efficient** algorithm for the following assumptions:
 
 <details>
   <summary>Show</summary>
+  This problem can be reduced to the following problem: <br><br>
+  
+  Construct a graph using the nodes $1..S$ which has edge $(a[i], \ b[i])$ for all $i$ where $0 \leq i \leq N - 1$. We need to find if we can assign to each edge a direction such that each node has only one incoming edge. We can observe such a condition is only possible if in each connected component (containing more than $1$ node) the number of edges = number of nodes because then every edge can be made to point towards different node.
   
   ```cpp
   bool solution(vector<int> &A, vector<int> &B, int S) {
     int N = A.size();
-    set<int> G[N + 1];
-  
-    for (int i = 1; i <= N; i++) {
-      G[A[i]].insert(i);
-      G[B[i]].insert(i);
+    vector<int> G[S + 1];
+    for (int i = 0; i < N; i++) {
+      G[A[i]].push_back(B[i]);
+      G[B[i]].push_back(A[i]);
     }
-                          
-    set<pair<int, int>> deg;
-  
-    for (int i = 1; i <= S; i++) {   
-      if (G[i].size() == 0) continue;
-      deg.insert({G[i].size(), i});
-    }
-                          
-    int ans = 0;
-                          
-    while (!deg.empty()) {
-      auto [sz, s] = *deg.begin();
-      deg.erase(deg.begin());
-      if (sz == 0) continue;
-      if (sz > 1) break;
-      int pat = *G[s].begin();
-      ans++;
-      int s1 = A[pat], s2 = B[pat];
-      if (s == s2) swap(s1, s2);
-      G[s1].erase(pat);
-      deg.erase({G[s2].size(), s2});
-      G[s2].erase(pat);
-      deg.insert({G[s2].size(), s2});
-    }
-  
+    int edges = 0, nodes = 0;
+    vector<int> v(S + 1);
+    function<void(int)> dfs = [&] (int s) {
+      if (vis[s]) return;
+      vis[s] = 1, nodes++;
+      for (auto i: G[s]) {
+        edges++;
+        dfs(i);
+      }
+    };
+    
     for (int i = 1; i <= S; i++) {
-      if (G[i].size() > 1) {
-        ans++;
+      if (G[i].size() && !vis[i]) {
+        edges = 0, nodes = 0;
+        dfs(i);
+        if (edges != 2 * nodes) {
+          return 0;
+        }
       }
     }
-    return (ans == n);
-  }
+    return 1;
   ```
   
 </details>
