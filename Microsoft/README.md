@@ -47,33 +47,33 @@ Write an **efficient** algorithm for the following assumptions:
   
   ```cpp
   bool solution(vector<int> &A, vector<int> &B, int S) {
-    int N = A.size();
-    vector<int> G[S + 1];
-    for (int i = 0; i < N; i++) {
-      G[A[i]].push_back(B[i]);
-      G[B[i]].push_back(A[i]);
-    }
-    int edges = 0, nodes = 0;
-    vector<int> vis(S + 1);
-    function<void(int)> dfs = [&] (int s) {
-      if (vis[s]) return;
-      vis[s] = 1, nodes++;
-      for (auto i: G[s]) {
-        edges++;
-        dfs(i);
+      int N = A.size();
+      vector<int> G[S + 1];
+      for (int i = 0; i < N; i++) {
+          G[A[i]].push_back(B[i]);
+          G[B[i]].push_back(A[i]);
       }
-    };
+      int edges = 0, nodes = 0;
+      vector<int> vis(S + 1);
+      function<void(int)> dfs = [&] (int s) {
+          if (vis[s]) return;
+          vis[s] = 1, nodes++;
+          for (auto i: G[s]) {
+              edges++;
+              dfs(i);
+          }
+      };
     
-    for (int i = 1; i <= S; i++) {
-      if (G[i].size() && !vis[i]) {
-        edges = 0, nodes = 0;
-        dfs(i);
-        if (edges != 2 * nodes) {
-          return 0;
-        }
+      for (int i = 1; i <= S; i++) {
+          if (G[i].size() && !vis[i]) {
+              edges = 0, nodes = 0;
+              dfs(i);
+              if (edges != 2 * nodes) {
+                  return 0;
+              }
+          }
       }
-    }
-    return 1;
+      return 1;
   ```
   
 </details>
@@ -118,4 +118,41 @@ Assume that:
 
 In your solution, focus on **correctness**. The performance of your solution will not be the focus of the assessment.
 
+### Solution
+
+<details>
+  <summary>Show</summary>
+  
+  ```cpp
+    int solution(vector<string> &A) {
+        int n = A.size(), m = A[0].size();
+        vector<int> fx = {0, 1, 0, -1};
+        vector<int> fy = {1, 0, -1, 0};
+        int vis[n + 1][m + 1][4]; memset(vis, 0, sizeof vis);
+        bool clean[n + 1][m + 1]; memset(clean, 0, sizeof clean);
+        int x = 0, y = 0, d = 0;
+        while (1) {
+            if (vis[x][y][d] == 1) break;
+            vis[x][y][d] = 1;
+            clean[x][y] = 1;
+            for (int k = 0; k < 4; k++) {
+                int nd = (d + k) % 4;
+                int nx = x + fx[nd];
+                int ny = y + fy[nd];
+                if (nx < 0 || nx >= n || ny < 0 || ny >= m || A[nx][ny] == 'X') continue;
+                x = nx, y = ny, d = nd;
+                break;
+            }
+        }
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                ans += clean[i][j];
+            }
+        }
+        return ans;
+    }
+  ```
+  
+</details>
 
