@@ -40,10 +40,16 @@ Write an **efficient** algorithm for the following assumptions:
 ### Solution
 
 <details>
-  <summary>Show</summary>
-  This problem can be reduced to the following problem: <br><br>
+  <summary>Explanation</summary>
+  
+  <br>This problem can be reduced to the following problem: <br>
   
   Construct a graph using the nodes $1..S$ which has edge $(a[i], \ b[i])$ for all $i$ where $0 \leq i \leq N - 1$. We need to find if we can assign to each edge a direction such that each node has only one incoming edge. We can observe such a condition is only possible if in each connected component (containing more than $1$ node) the number of edges = number of nodes because then every edge can be made to point towards different node.
+  
+</details>
+
+<details>
+  <summary>Code</summary>
   
   ```cpp
   bool solution(vector<int> &A, vector<int> &B, int S) {
@@ -121,7 +127,7 @@ In your solution, focus on **correctness**. The performance of your solution wil
 ### Solution
 
 <details>
-  <summary>Show</summary>
+  <summary>Code</summary>
   
   ```cpp
     int solution(vector<string> &A) {
