@@ -54,7 +54,7 @@ Write an **efficient** algorithm for the following assumptions:
       G[B[i]].push_back(A[i]);
     }
     int edges = 0, nodes = 0;
-    vector<int> v(S + 1);
+    vector<int> vis(S + 1);
     function<void(int)> dfs = [&] (int s) {
       if (vis[s]) return;
       vis[s] = 1, nodes++;
