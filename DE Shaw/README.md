@@ -224,3 +224,45 @@ $min\\_quantity = [2, \ 1, \ 1]$
 $max\\_quantity = [4, \ 3, \ 1]$
 
 In this case Andy can buy $4$ quantities of $1st$ vegetable, $3$ quantities of $2nd$ vegetable and $1$ quantity of $3rd$ vegetable. It costs him $23$ unit of money and it gives him $4 \times 2 + 3 \times 1 + 1 \times 3 = 14$ unit of nutrition and this is the maximum nutrition he can get from the shopping in the dish. Though after buying he has $30 - 23 = 7$ unit of money, he can't buy anything more because it crosses the maximum limit after which dish will be spoiled.
+
+
+### Solution
+
+<details>
+  <summary>Code</summary>
+  
+  ```cpp
+  int maximizeNutrition(int n, vector<int> cost, vector<int> nutrients, 
+                    vector<int> min_quantity, vector<int> max_quantity) {
+        int ans = 0;
+        for (int i = 0; i < n; i++) {
+            int cur = min_quantity[i] * cost[i];
+            m -= cur;
+            ans += nutrients[i] * min_quantity[i];
+            max_quantity[i] -= min_quantity[i];
+        }
+        if (m < 0) {
+            return 0;
+        }
+        vector<int> v, w;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < max_quantity[i]; j++) {
+                v.push_back(nutrients[i]);
+                w.push_back(cost[i]);
+            }
+        }
+        int N = v.size();
+        vector<int> dp(m + 1, 0); 
+        dp[0] = 0;
+        for (int i = 0; i < N; i++) {
+            for (int j = m; j >= 0; j--) {
+                if (j - w[i] >= 0) {
+                    dp[j] = max(dp[j], dp[j - w[i]] + v[i]);
+                }
+            }
+        }
+        return dp[m] + ans;
+  }
+  ```
+  
+</details>
