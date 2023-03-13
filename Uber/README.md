@@ -90,7 +90,7 @@ Amaru is a dumb player who only rushes in, so can you help her in winning by fin
       for (int j = 30; j >= 0; j--) {
         if (X >> j & 1) {
           if (val >= L) ans |= (1 << j);
-          else if (val >> L & 1) val += (1 << j);
+          else if (L >> j & 1) val += (1 << j);
           else ans |= (1 << j);
         }
         else {
